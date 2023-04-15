@@ -1,911 +1,616 @@
 <x-guest-layout>
-    <!-- Slider Starts -->
-    <div id="main-slide" class="carousel slide carousel-fade" data-ride="carousel">
-        <!-- Indicators Starts -->
-        <ol class="carousel-indicators visible-lg visible-md">
-            <li data-target="#main-slide" data-slide-to="0" class="active"></li>
-            <li data-target="#main-slide" data-slide-to="1"></li>
-            <li data-target="#main-slide" data-slide-to="2"></li>
-        </ol>
-        <!-- Indicators Ends -->
-        <!-- Carousel Inner Starts -->
-        <div class="carousel-inner">
-            <!-- Carousel Item Starts -->
-            <div class="item active bg-parallax item-1">
-                <div class="slider-content">
-                    <div class="container">
-                        <div class="slider-text text-center">
-                            <h3 class="slide-title"><span>Profitable</span> Crypto <span>Trading </span> Investment
-                                Solutions</h3>
-                            <p>
-                                <a href="{{ route('register') }}" class="slider btn btn-primary">Get Started</a>
-                            </p>
+
+    <!-- START SECTION BANNER -->
+    <section id="home" class="banner_section section_gradiant">
+        <div id="banner_bg_effect" class="banner_effect"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12 order-lg-first text_md_center">
+                    <div class="banner_text">
+                        <h1 class="animation" data-animation="fadeInUp" data-animation-delay="1.5s"><span>Exquisite
+                                Remittance</span> Bitcoin trading</h1>
+                        <h3 class="animation" data-animation="fadeInUp" data-animation-delay="1.6s">Start Bitcoin
+                            Trading Today!</h3>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="1.7s">The highest paying
+                            Bitcoin trading pool and cloud trading provider on the market. Start trading Bitcoin today!
+                        </p>
+                        <div class="banner_btn animation" data-animation="fadeInUp" data-animation-delay="1.8s">
+                            <a href="{{ route('register') }}" class="btn btn-default page-scroll nav-link">Sign up <i
+                                    class="fa fa-arrow-right" style="font-size:14px"></i></a>
+                            <a href="{{ route('login') }}" class="btn btn-border">Sign in <i class="fa fa-arrow-right"
+                                    style="font-size:14px"></i></a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Carousel Item Ends -->
-            <!-- Carousel Item Starts -->
-            <div class="item bg-parallax item-2">
-                <div class="slider-content">
-                    <div class="col-md-12">
-                        <div class="container">
-                            <div class="slider-text text-center">
-                                <h3 class="slide-title"><span>Crypto</span> Investment <br />You can <span>Trust</span>
-                                </h3>
-                                <p>
-                                    <a href="#plans" class="slider btn btn-primary">our Plans</a>
-                                </p>
-                            </div>
-                        </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 order-first">
+                    <div class="banner_image_right res_md_mb_50 res_xs_mb_30 animation" data-animation="fadeInRight"
+                        data-animation-delay="1.5s">
+                        <img src="assets44/images/banner_vector.png" alt="banner_vector" />
                     </div>
                 </div>
             </div>
-            <!-- Carousel Item Ends -->
         </div>
-        <!-- Carousel Inner Ends -->
-        <!-- Carousel Controlers Starts -->
-        <a class="left carousel-control" href="#main-slide" data-slide="prev">
-            <span><i class="fa fa-angle-left"></i></span>
-        </a>
-        <a class="right carousel-control" href="#main-slide" data-slide="next">
-            <span><i class="fa fa-angle-right"></i></span>
-        </a>
-        <!-- Carousel Controlers Ends -->
-    </div>
-    <!-- Slider Ends -->
-    <!-- Features Section Starts -->
-    <section class="features">
-        <div class="container">
-            <div class="row features-row">
-                <!-- Feature Box Starts -->
-                <div class="feature-box col-md-4 col-sm-12">
-                    <span class="feature-icon">
-                        <img id="download-bitcoin" src="images/icons/orange/download-bitcoin.png"
-                            alt="download bitcoin">
-                    </span>
-                    <div class="feature-box-content">
-                        <h3>Open an account</h3>
-                        <p>Click on the register button to create an account. It's totally easy and free</p>
-                    </div>
-                </div>
-                <!-- Feature Box Ends -->
-                <!-- Feature Box Starts -->
-                <div class="feature-box two col-md-4 col-sm-12">
-                    <span class="feature-icon">
-                        <img id="add-bitcoins" src="images/icons/orange/add-bitcoins.png" alt="add bitcoins">
-                    </span>
-                    <div class="feature-box-content">
-                        <h3>Deposit/Invest Funds</h3>
-                        <p>Choose an investment plan and make your first deposit</p>
-                    </div>
-                </div>
-                <!-- Feature Box Ends -->
-                <!-- Feature Box Starts -->
-                <div class="feature-box three col-md-4 col-sm-12">
-                    <span class="feature-icon">
-                        <img id="buy-sell-bitcoins" src="images/icons/orange/buy-sell-bitcoins.png"
-                            alt="buy and sell bitcoins">
-                    </span>
-                    <div class="feature-box-content">
-                        <h3>WIthdraw Funds</h3>
-                        <p>Request for the withdrawal and receive instant payment</p>
-                    </div>
-                </div>
-                <!-- Feature Box Ends -->
-            </div>
+        <div class="section_wave" style="background-image:url('assets44/images/banner_wave.png');"></div>
     </section>
-    <!-- Features Section Ends -->
-    <!-- About Section Starts -->
-    <section id="aboutus" class="about-us">
+    <!-- END SECTION BANNER -->
+
+    <!-- START SECTION HOW IT WORK -->
+    <section id="how_it_work" class="how_work" data-parallax="scroll"
+        data-image-src="assets44/images/how_it_work_bg.html">
+
         <div class="container">
-            <!-- Section Title Starts -->
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <div class="title_dark">
+                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">How it Works</h2>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Traditionally,
+                            bitcoin trading has involved the buying and selling of the cryptocurrency on an exchange.
+                            But, you can also trade on bitcoin by speculating on its price movements using CFDs. These
+                            are a type of derivative – meaning you'll take a position on market movements without doing
+                            this by yourself, our system makes the moves.</p>
+                    </div>
+                    <a href="{{ route ('login') }}" class="btn btn-default page-scroll animation" data-animation="fadeInUp"
+                        data-animation-delay="0.3s">Get started <i class="fa fa-arrow-right"
+                            style="font-size:14px"></i></a>
+                </div>
+                <div class="col-lg-7 col-md-12 col-sm-12">
+                    <div class="work_box animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                        <div class="box_inner"> <i class="fa fa-user" style="font-size:34px"></i>
+                            <h4>Create Account</h4>
+                            <p>Bitcoin Core, however, is a full node, meaning it helps verify and transmit other Bitcoin
+                                transactions across the network and stores copy of the entire blockchain.</p>
+                        </div>
+                    </div>
+                    <div class="work_box animation" data-animation="fadeInUp" data-animation-delay="0.5s">
+                        <div class="box_inner"> <i class="fa fa-lock" style="font-size:34px"></i>
+                            <h4>Safe & Secure</h4>
+                            <p>We take careful measures to ensure that your bitcoin is as safe as possible. Offline
+                                storage provides an
+                                important security measure against theft or loss. </p>
+                        </div>
+                    </div>
+                    <div class="work_box animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+                        <div class="box_inner"> <i class="fa fa-money" style="font-size:34px"></i>
+                            <h4>Trading</h4>
+                            <p>Blockchain works with exchange partners all around the world to make buying bitcoin in
+                                your wallet both a seamless and secure experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shape shap1"></div>
+    </section>
+    <!-- END SECTION HOW IT WORK -->
+
+    <!-- START SECTION ABOUT US -->
+    <section id="about" class="section_gradiant">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="animation res_sm_mb_30" data-animation="fadeInLeft" data-animation-delay="0.1s">
+                        <img src="assets44/images/about_img.png" alt="aboutimg" />
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="title_light">
+                        <span class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">What is Exquisite
+                            Remittance</span>
+                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">About The Exquisite
+                            Remittance</h2>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">A cryptocurrency is a
+                            digital or virtual currency designed to work as a medium of exchange. It uses cryptography
+                            to secure and verify transactions as well as to control the creation of new units of a
+                            particular cryptocurrency. </p>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.5s">Essentially,
+                            cryptocurrencies are limited entries in a database that no one can change unless specific
+                            conditions are fulfilled.</p>
+                    </div>
+                    <a href="{{ route ('register') }}" class="btn btn-default video animation" data-animation="fadeInUp"
+                        data-animation-delay="0.6s">Let's Start <i class="fa fa-arrow-right"
+                            style="font-size:14px"></i></a>
+                </div>
+            </div>
+            <div class="divider large_divider"></div>
             <div class="row text-center">
-                <h2 class="title-head">About <span>Us</span></h2>
-                <div class="title-head-subtitle">
-                    <p> Sky stream exchange is an Online Digital trading platform, where companies, individuals and
-                        firms are
-                        given the opportunity to earn from Crypto trading & forex Exchange, by investing their capital
-                        through cryptocurrency, which will be used to start up a trading section for you.</p>
-                </div>
-            </div>
-            <!-- Section Title Ends -->
-            <!-- Section Content Starts -->
-            <div class="row about-content">
-                <!-- Image Starts -->
-                <div class="col-sm-12 col-md-5 col-lg-6 text-center">
-                    <img id="about-us" class="img-responsive img-about-us" src="images/about-us.png" alt="about us">
-                </div>
-                <!-- Image Ends -->
-                <!-- Content Starts -->
-                <div class="col-sm-12 col-md-7 col-lg-6">
-                    <h3 class="title-about">WE ARE Sky stream exchange</h3>
-                    <p class="about-text">A special trading system developed by our specialists significantly reduces
-                        financial risks, while increasing the efficiency of trading sessions at the same time.
-                        Verityinvest has its own business model, which allows investors to receive high interest rates
-                        on a daily basis, regardless of changes in the financial market, which not every company can
-                        keep up with.
-
-                    </p>
-                    <ul class="nav nav-tabs">
-                        <li class="active"><a data-toggle="tab" href="#menu1">Our Mission</a></li>
-                        <li><a data-toggle="tab" href="#menu2">Our advantages</a></li>
-                        <li><a data-toggle="tab" href="#menu3">Our guarantees</a></li>
-                    </ul>
-                    <div class="tab-content">
-                        <div id="menu1" class="tab-pane fade in active">
-                            <p>The platform created by us provides our investors with the most comfortable conditions,
-                                in order to help them engage in the investment process. Our professional traders, guided
-                                by their own unique trading strategy, will allow our clients to receive such revenue,
-                                which even an experienced investor will envy. The whole investment process takes place
-                                on terms that are favorable for our investors; everyone will be satisfied with the
-                                cooperation with our company. Join us and you will learn how to invest easily and
-                                efficiently.</p>
-                        </div>
-                        <div id="menu2" class="tab-pane fade">
-                            <p>Adhering to highest compliance standards <br>
-
-                                As an international regulated financial intermediary subject to the rules set out by the
-                                Swiss self-regulatory organization (SRO – VQF ) Evelo Limited operates under
-                                international law and according to AML (anti-money laundering) regulations.</p>
-                        </div>
-                        <div id="menu3" class="tab-pane fade">
-                            <p>We are here because we are passionate about open, transparent markets and aim to be a
-                                major driving force in widespread adoption, we are the first and the best in crypto
-                                Investments. </p>
-                        </div>
+                <div class="col-lg-8 col-md-12 offset-lg-2">
+                    <div class="title_light">
+                        <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Why Exquisite
+                            Remittance</span>
+                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Competitive
+                            Benefit</h2>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">There are great
+                            opportunities for traders to generate profits and enjoy other benefits. By participating in
+                            a crypto trading plan, you could take advantage of the significant benefits that contribute
+                            to your potential success in exciting ways.</p>
                     </div>
-                    <a class="btn btn-primary" href="{{ route('register') }}">Join us</a>
                 </div>
-                <!-- Content Ends -->
             </div>
-            <!-- Section Content Ends -->
+            <div class="row text-center small_space benefit_wrap">
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                        <img src="assets44/images/secure.png" alt="secure" />
+                        <h6>Safe & Secure</h6>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+                        <img src="assets44/images/token.png" alt="Trading" />
+                        <h6>Safe Trading</h6>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.3s">
+                        <img src="assets44/images/payment.png" alt="payment" />
+                        <h6>Easy Payment</h6>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                        <img src="assets44/images/case.png" alt="case" />
+                        <h6>Daily Cash Outs</h6>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.5s">
+                        <img src="assets44/images/app.png" alt="app" />
+                        <h6>Smart Application</h6>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+                        <img src="assets44/images/dilution.png" alt="dilution" />
+                        <h6>NO DILUTION</h6>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="rounded_shape rounded_shape1"></div>
+        <div class="rounded_shape rounded_shape2"></div>
     </section>
-    <!-- About Section Ends -->
-    <!-- Features and Video Section Starts -->
-    <section id="features" class="image-block">
-        <div class="container-fluid">
+    <!-- END SECTION ABOUT US -->
+
+    <!-- START SECTION TOKEN -->
+    <section id="token" class="section_token">
+        <div class="container">
             <div class="row">
-                <!-- Features Starts -->
-                <div class="col-md-8 ts-padding img-block-left">
-                    <div class="gap-20"></div>
-                    <div class="row text-center">
-                        <h2 class="title-head">Why Choose Us?</h2>
-                        <div class="title-head-subtitle">
-                            <p>We are a worldwide investment company committed to the principle of revenue maximization
-                                and reduction of the financial risks in investing.</p>
-                        </div>
+                <div class="col-lg-7 col-md-12 col-sm-12 text_md_center">
+                    <div class="title_dark">
+                        <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Live
+                            Trading</span>
+                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Pricing & values
+                        </h2>
                     </div>
                     <div class="row">
-                        <!-- Feature Starts -->
-                        <div class="col-sm-6 col-md-6 col-xs-12">
-                            <div class="feature text-center">
-                                <span class="feature-icon">
-                                    <img id="strong-security" src="images/icons/orange/strong-security.png"
-                                        alt="strong security" />
-                                </span>
-                                <h3 class="feature-title">Instant Withdrawals</h3>
-                                <p>Get your payment instantly through requesting it! We don't take percentage.</p>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                                <h6>Starting time :</h6>
+                                <p>January 23, 2023 (Monday 9:00 AM)</p>
                             </div>
                         </div>
-                        <!-- Feature Ends -->
-                        <div class="gap-20-mobile"></div>
-                        <!-- Feature Starts -->
-                        <div class="col-sm-6 col-md-6 col-xs-12">
-                            <div class="feature text-center">
-                                <span class="feature-icon">
-                                    <img id="world-coverage" src="images/icons/orange/world-coverage.png"
-                                        alt="world coverage" />
-                                </span>
-                                <h3 class="feature-title">Referral System</h3>
-                                <p>Promote the company and earn unlimited referral commission from each referral.</p>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+                                <h6>Ending time :</h6>
+                                <p>June 06, 2023 (Monday 11:00 PM)</p>
                             </div>
                         </div>
-                        <!-- Feature Ends -->
-                    </div>
-                    <div class="gap-20"></div>
-                    <div class="row">
-                        <!-- Feature Starts -->
-                        <div class="col-sm-6 col-md-6 col-xs-12">
-                            <div class="feature text-center">
-                                <span class="feature-icon">
-                                    <img id="payment-options" src="images/icons/orange/payment-options.png"
-                                        alt="payment options" />
-                                </span>
-                                <h3 class="feature-title">Blockchain Ecosystem</h3>
-                                <p>Get mining with a big profit, and Miner is calculated with the blockchain ecosystem.
-                                </p>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.3s">
+                                <h6>Market Caps :</h6>
+                                <p>$ 118.23 (Billion)</p>
                             </div>
                         </div>
-                        <!-- Feature Ends -->
-                        <div class="gap-20-mobile"></div>
-                        <!-- Feature Starts -->
-                        <div class="col-sm-6 col-md-6 col-xs-12">
-                            <div class="feature text-center">
-                                <span class="feature-icon">
-                                    <img id="mobile-app" src="images/icons/orange/mobile-app.png" alt="mobile app" />
-                                </span>
-                                <h3 class="feature-title">Profitable Plans</h3>
-                                <p>Our investment plans are tailored to the level of your investment opportunities.</p>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                                <h6>Low - High 24h :</h6>
+                                <p>$ 6,455.83 - $ 7,071.42</p>
                             </div>
                         </div>
-                        <!-- Feature Ends -->
-                    </div>
-
-
-                </div>
-                <!-- Features Ends -->
-                <!-- Video Starts -->
-                <div class="col-md-4 ts-padding ">
-                    <div>
-                        <div class="text-center">
-
-                            <img src="certificate.png" height="500px" alt="">
-
-                            {{-- <a class="button-video mfp-youtube" href="Sky stream exchange.mp4"></a> --}}
+                        <div class="col-md-6 col-sm-12">
+                            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.5s">
+                                <h6>Traded :</h6>
+                                <p>$ 132 (Billion)</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+                                <h6>Acceptable Currency :</h6>
+                                <p>BTC, Eth, Ltc</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- Video Ends -->
+                <div class="col-lg-5 offset-lg-0 col-md-8 offset-md-2 text_md_center res_md_mt_30">
+                    <div class="title_dark">
+                        <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Start In</span>
+                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Trading is ON
+                            LIVE now!</h2>
+                    </div>
+                    <div class="tk_countdown text-center animation countdown_shape" data-animation="fadeInUp"
+                        data-animation-delay="0.1s">
+                        <div class="tk_counter_inner">
+                            <div class="tk_countdown_time" data-time="2023/06/06 00:00:00"></div>
+                            <a href="login.html" class="btn btn-default">Trade now <i class="fa fa-arrow-right"
+                                    style="font-size:14px"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Features and Video Section Ends -->
-    <!-- Pricing Starts -->
-    <section id="plans" class="pricing">
-        <div class="container">
-            <!-- Section Title Starts -->
+            <div class="divider large_divider"></div>
             <div class="row text-center">
-                <h2 class="title-head">Investment <span>Plans</span></h2>
-                <div class="title-head-subtitle">
-                    <p>Complete Packages For Every Trader</p>
-                </div>
-            </div>
-            <!-- Section Title Ends -->
-            <!-- Section Content Starts -->
-            <div class="row pricing-tables-content">
-                <div class="pricing-container">
-
-
-                    <!-- Pricing Tables Starts -->
-                    <ul class="pricing-list bounce-invert">
-
-                        @foreach ($investment as $investment)
-                            <li class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-                                <ul class="pricing-wrapper">
-                                    <!-- Buy Pricing Table #1 Starts -->
-                                    <li data-type="buy" class="is-visible">
-                                        <header class="pricing-header">
-                                            <h2>{{ $investment->plan }} Plan</h2>
-
-                                            <div class="price">
-
-                                                <span class="value"
-                                                    style="font-size: 30px;">{{ $investment->amount }}</span>
-                                            </div>
-                                            <h2>Profit <span>{{ $investment->profit }}</span> </h2>
-                                            <h2>Duration <span> {{ $investment->duration }}</span></h2>
-                                        </header>
-                                        <footer class="pricing-footer">
-                                            <a href="{{ route('register') }}" class="btn btn-primary">Get Started</a>
-                                        </footer>
-                                    </li>
-                                    <!-- Buy Pricing Table #1 Ends -->
-
-                                </ul>
-                            </li>
-                        @endforeach
-                        {{-- <li class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-                            <ul class="pricing-wrapper">
-                                <!-- Buy Pricing Table #2 Starts -->
-                                <li data-type="buy" class="is-visible">
-                                    <header class="pricing-header">
-                                        <h2>Silver Plan</h2>
-
-                                        <div class="price">
-
-                                            <span class="value" style="font-size: 30px;">$4,000 - $10,000</span>
-                                        </div>
-                                        <h2>Profit <span> 11% </span> </h2>
-                                        <h2>Duration <span> 4 Days</span></h2>
-                                    </header>
-                                    <footer class="pricing-footer">
-                                        <a href="user/signup.html" class="btn btn-primary">Get Started</a>
-                                    </footer>
-                                </li>
-                                <!-- Buy Pricing Table #2 Ends -->
-
-                            </ul>
-                        </li>
-                        <li class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-                            <ul class="pricing-wrapper">
-                                <!-- Buy Pricing Table #3 Starts -->
-                                <li data-type="buy" class="is-visible">
-                                    <header class="pricing-header">
-                                        <h2>Gold Plan</h2>
-
-                                        <div class="price">
-
-                                            <span class="value" style="font-size: 30px;">$10,000 - $16,000</span>
-                                        </div>
-                                        <h2>Profit <span> 31% </span> </h2>
-                                        <h2>Duration <span> 6 Days</span></h2>
-                                    </header>
-                                    <footer class="pricing-footer">
-                                        <a href="user/signup.html" class="btn btn-primary">Get Started</a>
-                                    </footer>
-                                </li>
-                                <!-- Buy Pricing Table #3 Ends -->
-
-                            </ul>
-                        </li>
-
-                        <li class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-                            <ul class="pricing-wrapper">
-                                <!-- Buy Pricing Table #3 Starts -->
-                                <li data-type="buy" class="is-visible">
-                                    <header class="pricing-header">
-                                        <h2>Diamond Plan</h2>
-
-                                        <div class="price">
-
-                                            <span class="value" style="font-size: 30px;">$16,000 - $19,999</span>
-                                        </div>
-                                        <h2>Profit <span> 40% </span> </h2>
-                                        <h2>Duration <span> 8 Days</span></h2>
-                                    </header>
-                                    <footer class="pricing-footer">
-                                        <a href="user/signup.html" class="btn btn-primary">Get Started</a>
-                                    </footer>
-                                </li>
-                                <!-- Buy Pricing Table #3 Ends -->
-
-                            </ul>
-                        </li> --}}
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Pricing Ends -->
-    <section id="features" class="image-block">
-        <div class="container-fluid">
-            <div class="row">
-                <!-- Features Starts -->
-                <div class="col-md-7 ts-padding img-block-left">
-                    <div class="gap-20"></div>
-                    <div class="row text-center">
-                        {{-- <h2 class="title-head">Why Choose Us?</h2> --}}
-                        <h2 class="title-head text-center"><span>Bitcoin</span> Calculator</h2>
-
-                        <div class="title-head-subtitle">
-                            <p class="message text-center">Find out the current Bitcoin value with our easy-to-use
-                                converter
-                            </p>
-                            <p class="info"><i>* Data updated every 15 minutes</i></p>
-
-                        </div>
-                    </div>
-
-
-
-                </div>
-                <!-- Features Ends -->
-                <!-- Video Starts -->
-                <div class="col-md-5 ts-padding ">
-                    <div>
-                        <div class="text-center">
-                            <div
-                                style="width: 400px; height:335px; background-color: #232937; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:335px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;margin: 0;width: 400px;padding:1px;padding: 0px; margin: 0px;">
-                                <div style="height:315px; padding:0px; margin:0px; width: 100%;"><iframe
-                                        src="https://widget.coinlib.io/widget?type=converter&theme=dark"
-                                        width="400" height="310px" scrolling="auto" marginwidth="0"
-                                        marginheight="0" frameborder="0" border="0"
-                                        style="border:0;margin:0;padding:0;"></iframe>
-                                </div>
-                                <div
-                                    style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
-                                    <a href="https://coinlib.io" target="_blank"
-                                        style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">
-                                        {{-- </a>&nbsp;</div> --}}
-                                </div>
-
-
-                                {{-- <a class="button-video mfp-youtube" href="Sky stream exchange.mp4"></a> --}}
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Video Ends -->
-                </div>
-            </div>
-    </section>
-    <!-- Bitcoin Calculator Section Starts -->
-    {{-- <section class="bitcoin-calculator-section">
-        <div class="container">
-            <div class="row">
-                <!-- Section Heading Starts -->
                 <div class="col-md-12">
+                    <div class="title_dark">
+                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Trading Proceeds
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center res_md_mt_20">
+                <div class="col-md-7">
+                    <div class="res_sm_mb_30 text-center animation" data-animation="fadeInLeft"
+                        data-animation-delay="0.2s">
+                        <img src="assets44/images/sale-proceeds.png" alt="sale-proceeds" />
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <ul class="list_none chart_list">
+                        <li class="color1 animation" data-animation="fadeInUp" data-animation-delay="0.3s">
+                            interconnection Dev.</li>
+                        <li class="color2 animation" data-animation="fadeInUp" data-animation-delay="0.4s">Marketing
+                            & General</li>
+                        <li class="color3 animation" data-animation="fadeInUp" data-animation-delay="0.5s">Mobile Ad
+                            Platform</li>
+                        <li class="color4 animation" data-animation="fadeInUp" data-animation-delay="0.6s">Ad
+                            Platform Integration</li>
+                        <li class="color5 animation" data-animation="fadeInUp" data-animation-delay="0.7s">
+                            Operational Overhead</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="divider large_divider"></div>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div class="title_dark">
+                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Distribution</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center flex-row-reverse res_md_mt_20">
+                <div class="col-md-7">
+                    <div class="res_sm_mb_30 text-center animation" data-animation="fadeInRight"
+                        data-animation-delay="0.2s">
+                        <img src="assets44/images/token-distribution.png" alt="distribution" />
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <ul class="list_none chart_list">
+                        <li class="color4 animation" data-animation="fadeInUp" data-animation-delay="60.3s">Traded
+                        </li>
+                        <li class="color6 animation" data-animation="fadeInUp" data-animation-delay="1.4s">Build Out
+                        </li>
+                        <li class="color7 animation" data-animation="fadeInUp" data-animation-delay="0.5s">Team &
+                            Advisers</li>
+                        <li class="color3 animation" data-animation="fadeInUp" data-animation-delay="0.6s">Private
+                            Investors</li>
+                        <li class="color2 animation" data-animation="fadeInUp" data-animation-delay="0.7s">Bounty
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="shape shap1"></div>
+        <div class="shape shap2"></div>
+    </section>
+    <!-- END SECTION TOKEN -->
 
-                    <div class="col-md-12 text-center">
-                        <form class="bitcoin-calculator" id="bitcoin-calculator">
-                            <div
-                                style="width: 400px; height:335px; background-color: #232937; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:335px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;margin: 0;width: 400px;padding:1px;padding: 0px; margin: 0px;">
-                                <div style="height:315px; padding:0px; margin:0px; width: 100%;"><iframe
-                                        src="https://widget.coinlib.io/widget?type=converter&theme=dark" width="400"
-                                        height="310px" scrolling="auto" marginwidth="0" marginheight="0"
-                                        frameborder="0" border="0" style="border:0;margin:0;padding:0;"></iframe>
+    <!-- START SECTION TIMELINE & MOBILE APP -->
+    <section id="road_map" class="section_gradiant2">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 col-md-12 offset-lg-2">
+                    <div class="title_light">
+                        <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Timeline</span>
+                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Exquisite
+                            Remittance Timeline</h2>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Cryptominded is a
+                            curated directory of the best cryptocurrency resources. We're slowly transforming the
+                            website into the best place for beginners to learn about cryptocurrencies Trading.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="roadmap owl-carousel small_space animation" data-animation="fadeInUp"
+                data-animation-delay="0.4s">
+                <div class="item">
+                    <div class="roadmap_box rd_complete">
+                        <div class="roadmap_inner">
+                            <div class="roadmap_icon icon_gradient_box"></div>
+                            <h6>January 2022</h6>
+                            <p>Trading Started</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="roadmap_box rd_complete">
+                        <div class="roadmap_inner">
+                            <div class="roadmap_icon icon_gradient_box"></div>
+                            <h6>February 2022</h6>
+                            <p>All Deposit Processed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="roadmap_box">
+                        <div class="roadmap_inner">
+                            <div class="roadmap_icon icon_gradient_box"></div>
+                            <h6>March 2022</h6>
+                            <p>Trading In-progress</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="roadmap_box">
+                        <div class="roadmap_inner">
+                            <div class="roadmap_icon icon_gradient_box"></div>
+                            <h6>June 2022</h6>
+                            <p>All Deposit Processed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="roadmap_box">
+                        <div class="roadmap_inner">
+                            <div class="roadmap_icon icon_gradient_box"></div>
+                            <h6>October 2022</h6>
+                            <p>Coin Marketcap, World Coin Index</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="roadmap_box">
+                        <div class="roadmap_inner">
+                            <div class="roadmap_icon icon_gradient_box"></div>
+                            <h6>December 2022</h6>
+                            <p>All withdrawal Processed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="roadmap_box">
+                        <div class="roadmap_inner">
+                            <div class="roadmap_icon icon_gradient_box"></div>
+                            <h6>December 2022</h6>
+                            <p>Trading Bitcoin</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="roadmap_box">
+                        <div class="roadmap_inner">
+                            <div class="roadmap_icon icon_gradient_box"></div>
+                            <h6>December 2022</h6>
+                            <p>All withdrawal Processed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="background-image:url('assets44/images/wave.html');" class="section_wave2"></div>
+    </section>
+    <!-- END SECTION TIMELINE & MOBILE APP -->
+
+    <!-- START SECTION FAQ -->
+    <section id="team" class="team_wrap" data-parallax="scroll" data-image-src="assets44/images/team_bg.png">
+        <div class="container">
+
+
+            <div id="faq">
+                <div class="divider large_divider"></div>
+                <div class="row text-center">
+                    <div class="col-lg-8 col-md-12 offset-lg-2">
+                        <div class="title_dark">
+                            <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">FAQs</span>
+                            <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Frequently
+                                Asked Questions</h2>
+                            <p class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Frequently
+                                asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers,
+                                all supposed to be commonly asked in some context</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row small_space">
+                    <div class="col-lg-8 col-md-12 offset-lg-2">
+                        <div id="accordion" class="faq_content">
+                            <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                                <div class="card-header" id="headingOne">
+                                    <h6 class="mb-0"> <a data-toggle="collapse" class="gradient_box"
+                                            href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What
+                                            is cryptocurrency?</a> </h6>
                                 </div>
-                                <div
-                                    style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
-                                    <a href="https://coinlib.io" target="_blank"
-                                        style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
-                                        Prices</a>&nbsp;by Coinlib</div>
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                    data-parent="#accordion">
+                                    <div class="card-body gradient_box"> Cryptocurrency is a form of payment that can
+                                        be exchanged online for goods and services. Many companies have issued their own
+                                        currencies, often called trading, and these can be traded specifically for the
+                                        good or service that the company provides. Think of them as you would arcade
+                                        trading or casino chips. You'll need to exchange real currency for the
+                                        cryptocurrency to access the good or service. </div>
+                                </div>
+                            </div>
+                            <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+                                <div class="card-header" id="headingTwo">
+                                    <h6 class="mb-0"> <a class="collapsed gradient_box" data-toggle="collapse"
+                                            href="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">Which cryptocurrency is best to buy today?</a>
+                                    </h6>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                    data-parent="#accordion">
+                                    <div class="card-body gradient_box"> The best cryptocurrency to buy is one we are
+                                        willing to hold onto even if it goes down. For example, I believe in Steem
+                                        enough that I am willing to hold it even if it goes down 99% and would start
+                                        buying more of it if the price dropped. </div>
+                                </div>
+                            </div>
+                            <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.3s">
+                                <div class="card-header" id="headingThree">
+                                    <h6 class="mb-0"> <a class="collapsed gradient_box" data-toggle="collapse"
+                                            href="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">How about day trading crypto?</a> </h6>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordion">
+                                    <div class="card-body gradient_box"> While profits are possible trading
+                                        cryptocurrencies, so are losses. My first year involved me spending hundreds of
+                                        hours trading Bitcoin with a result of losing over $5,000 with nothing to show
+                                        for it. Simply trading digital currencies is very similar to gambling because no
+                                        one really knows what is going to happen next although anyone can guess! While I
+                                        was lucky to do nothing expect lose money when I started, the worst thing that
+                                        can happen is to get lucky right away and get a big ego about what an amazing
+                                        cryptocurrency trader we are. </div>
+                                </div>
+                            </div>
+                            <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                                <div class="card-header" id="headingFour">
+                                    <h6 class="mb-0"> <a class="collapsed gradient_box" data-toggle="collapse"
+                                            href="#collapseFour" aria-expanded="false"
+                                            aria-controls="collapseFour">When to sell a cryptocurrency?</a> </h6>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                    data-parent="#accordion">
+                                    <div class="card-body gradient_box"> Before Steem I was all in an another altcoin
+                                        and really excited about it. When I first bought the price was low and made
+                                        payments to me every week just for holding it. As I tried to participate in the
+                                        community over the next several months, I was consistently met with a mix of
+                                        excitement and hostility. When I began talking openly about this, the negative
+                                        emotions won over in the community and in me. Originally I had invested and been
+                                        happy to hold no matter what the price which quickly went up after I bought it.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shape shap1"></div>
+        <div class="shape shap2"></div>
+    </section>
+    <!-- END SECTION FAQS -->
+
+    <!-- START SECTION WHITEPAPER & CONTACT -->
+    <section id="whitepaper" class="section_gradiant">
+        <div class="container">
+            <div class="row text_sm_center">
+                <div class="col-lg-7 col-md-7">
+                    <div class="title_light">
+                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Download
+                            Whitepaper</h2>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">A white paper is
+                            an authoritative report or guide that informs readers concisely about a complex issue and
+                            presents the issuing body's philosophy on the matter. It is meant to help readers understand
+                            an issue, solve a problem, or make a decision.</p>
+                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Marketers create
+                            whitepapers to educate their audience about a particular issue, or explain and promote a
+                            particular methodology.</p>
+                    </div>
+                    <a class="btn btn-default animation" data-animation="fadeInUp" data-animation-delay="0.4s"
+                        target=" _blank" href="https://bitcoin.org/bitcoin.pdf">Download Now <i
+                            class="fa fa-arrow-right" style="font-size:14px"></i></a>
+                </div>
+                <div class="col-lg-4 offset-lg-1 col-md-5">
+                    <div class="res_md_mt_30 animation" data-animation="fadeInRight" data-animation-delay="0.1s">
+                        <img alt="whitepaper" src="assets44/images/whitepaper.png">
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact">
+                <div class="divider large_divider"></div>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <div class="title_light">
+                            <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Contact
+                                Us</span>
+                            <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Get in touch!
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider small_divider"></div>
+                <div class="row">
+                    <div class="col-md-7 col-lg-6 offset-lg-1">
+                        <form method="post" name="enq" class="form_field">
+                            <div class="row">
+                                <div class="form-group col-md-6 animation" data-animation="fadeInUp"
+                                    data-animation-delay="0.1s">
+                                    <input type="text" required="required" placeholder="Enter Name *"
+                                        id="first-name" class="form-control" name="name">
+                                </div>
+                                <div class="form-group col-md-6 animation" data-animation="fadeInUp"
+                                    data-animation-delay="0.2s">
+                                    <input type="email" required="required" placeholder="Enter Email *"
+                                        id="email" class="form-control" name="email">
+                                </div>
+                                <div class="form-group col-md-12 animation" data-animation="fadeInUp"
+                                    data-animation-delay="0.3s">
+                                    <input type="text" required="required" placeholder="Enter Subject"
+                                        id="subject" class="form-control" name="subject">
+                                </div>
+                                <div class="form-group col-md-12 animation" data-animation="fadeInUp"
+                                    data-animation-delay="0.4s">
+                                    <textarea required="required" placeholder="Message *" id="description" class="form-control" name="message"
+                                        rows="2"></textarea>
+                                </div>
+                                <div class="col-md-12 text-center animation" data-animation="fadeInUp"
+                                    data-animation-delay="0.5s">
+                                    <button type="submit" title="Submit Your Message!" class="btn btn-default"
+                                        id="submitButton" name="submit" value="Submit">Submit <i
+                                            class="fa fa-arrow-right" style="font-size:14px"></i></button>
+                                </div>
+                                <div class="col-md-12">
+                                    <div id="alert-msg" class="alert-msg text-center"></div>
+                                </div>
                             </div>
                         </form>
                     </div>
+                    <div class="col-lg-5 col-md-5 res_sm_mt_30">
+                        <ul class="list_none contact_info mt-margin">
+                            <li class="input-group-prepend align-items-center animation" data-animation="fadeInUp"
+                                data-animation-delay="0.1s">
+                                <i class="fa fa-location-arrow" style="font-size:14px"></i>
+                                <div class="contact_detail">
+                                    <span>Address</span>
+                                    <p>USA Florida</p>
+                                </div>
+                            </li>
+                            <li class="input-group-prepend align-items-center animation" data-animation="fadeInUp"
+                                data-animation-delay="0.2s">
+                                <i class="fa fa-phone" style="font-size:14px"></i>
+                                <div class="contact_detail">
+                                    <span>Phone</span>
+                                    <p>+1 419 482-8334</p>
+                                </div>
+                            </li>
+                            <li class="input-group-prepend align-items-center animation" data-animation="fadeInUp"
+                                data-animation-delay="0.3s">
+                                <i class="fa fa-envelope" style="font-size:14px"></i>
+                                <div class="contact_detail">
+                                    <span>Email</span>
+                                    <p><a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
+                                            data-cfemail="1f6c6a6f6f706d6b5f6b706f7b7078326d7a72766b6b7e717c7a317c7072">[email&#160;protected]</a>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <!-- Section Heading Ends -->
-
-                <!-- Bitcoin Calculator Form Starts -->
-
-
-
-                <!-- Bitcoin Calculator Form Ends -->
             </div>
         </div>
-    </section> --}}
-
-    <!-- Bitcoin Calculator Section Ends -->
-
-
-    <!-- Team Section Starts -->
-    {{-- <section class="team">
-        <div class="container">
-            <!-- Section Title Starts -->
-            <div class="row text-center">
-                <h2 class="title-head">TESTI<span>MONIES</span></h2>
-                <div class="title-head-subtitle">
-                    <p> What our customers has to say about us.</p>
-                </div>
-            </div>
-            <!-- Section Title Ends -->
-            <!-- Team Members Starts -->
-            <div class="row team-content team-members">
-                <!-- Team Member Starts --
-                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                    <div class="team-member">
-                        <!-- Team Member Picture Starts --
-                        <img src="images/team/member1.jpg" class="img-responsive" alt="team member">
-                        <!-- Team Member Picture Ends -->
-                <!-- Team Member Details Starts --
-                        <div class="team-member-caption social-icons">
-                            <h4>Nicholas Zachary Gary</h4>
-                            <p>Director </p>
-                            <ul class="list list-inline social">
-                                <li>
-                                    <a href="#" class="fa fa-facebook"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-twitter"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-google-plus"></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- Team Member Details Ends --
-                    </div>
-                </div>
-                <!-- Team Member Ends -->
-                <!-- Team Member Starts -->
-                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                    <div class="team-member">
-                        <!-- Team Member Picture Starts -->
-                        <img src="images/team/member2.jpg" class="img-responsive" alt="team member">
-                        <!-- Team Member Picture Ends -->
-                        <!-- Team Member Details Starts -->
-                        <div class="team-member-caption social-icons">
-                            <h4>Marco Verratti</h4>
-                            <p>Sky stream exchange has liberated my life from abject poverty</p>
-                            <ul class="list list-inline social">
-                                <li>
-                                    <a href="#" class="fa fa-facebook"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-twitter"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-google-plus"></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- Team Member Details Ends -->
-                    </div>
-                </div>
-                <!-- Team Member Ends -->
-                <!-- Team Member Starts -->
-                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                    <!-- Team Member-->
-                    <div class="team-member">
-                        <!-- Team Member Picture Starts -->
-                        <img src="images/team/member3.jpg" class="img-responsive" alt="team member">
-                        <!-- Team Member Picture Ends -->
-                        <!-- Team Member Details Starts -->
-                        <div class="team-member-caption social-icons">
-                            <h4>Lugan Christine</h4>
-                            <p>I really doubted it at first but now i beleive</p>
-                            <ul class="list list-inline social">
-                                <li>
-                                    <a href="#" class="fa fa-facebook"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-twitter"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-google-plus"></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- Team Member Details Ends -->
-                    </div>
-                </div>
-                <!-- Team Member Ends -->
-                <!-- Team Member Starts -->
-                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                    <div class="team-member">
-                        <!-- Team Member Picture Starts -->
-                        <img src="images/team/member4.jpg" class="img-responsive" alt="team member">
-                        <!-- Team Member Picture Ends -->
-                        <!-- Team Member Details Starts -->
-                        <div class="team-member-caption social-icons">
-                            <h4>Antonio Conte</h4>
-                            <p>I am so happy to have benefitted from this oppurtunity</p>
-                            <ul class="list list-inline social">
-                                <li>
-                                    <a href="#" class="fa fa-facebook"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-twitter"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fa fa-google-plus"></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- Team Member Details Ends -->
-                    </div>
-                </div>
-                <!-- Team Member Ends -->
-
-            </div>
-            <!-- Team Members Ends -->
-        </div>
-    </section> --}}
-    <!-- Team Section Ends -->
-
-
-
-    <!-- Section FAQ Starts -->
-    <section class="faq">
-        <div class="container">
-            <div class="row text-center">
-                <h2 class="title-head">FAQs</h2>
-                <div class="title-head-subtitle">
-                    <p>Frequently Asked Questions</p>
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="col-xs-12 col-md-12">
-                    <!-- Panel Group Starts -->
-                    <div class="panel-group" id="accordion">
-                        <!-- Panel Starts -->
-                        <div class="panel panel-default">
-                            <!-- Panel Heading Starts -->
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                                        How do i get started?</a>
-                                </h4>
-                            </div>
-                            <!-- Panel Heading Ends -->
-                            <!-- Panel Content Starts -->
-                            <div id="collapse1" class="panel-collapse collapse in">
-                                <div class="panel-body">Create your own account to get started. It takes a few minutes
-                                    to complete registration.</div>
-                            </div>
-                            <!-- Panel Content Starts -->
-                        </div>
-                        <!-- Panel Ends -->
-                        <!-- Panel Starts -->
-                        <div class="panel panel-default">
-                            <!-- Panel Heading Starts -->
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
-                                        href="#collapse2">
-                                        Is Sky stream exchange financial investment platform availability for the
-                                        public?
-                                    </a>
-                                </h4>
-                            </div>
-                            <!-- Panel Heading Ends -->
-                            <!-- Panel Content Starts -->
-                            <div id="collapse2" class="panel-collapse collapse">
-                                <div class="panel-body"> Sky stream exchange is available to both individuals,
-                                    companies
-                                    and cooperate organization, Who are interested in earning.</div>
-                            </div>
-                            <!-- Panel Content Starts -->
-                        </div>
-                        <!-- Panel Ends -->
-                        <!-- Panel Starts -->
-                        <div class="panel panel-default">
-                            <!-- Panel Heading Starts -->
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
-                                        href="#collapse3">
-                                        Are there any Commissions upon making transaction on my account?</a>
-                                </h4>
-                            </div>
-                            <!-- Panel Heading Ends -->
-                            <!-- Panel Content Starts -->
-                            <div id="collapse3" class="panel-collapse collapse">
-                                <div class="panel-body">Sky stream exchange does not take any commissions on your
-                                    transactions. But such commissions can be taken by the payment systems or payment
-                                    aggregator.</div>
-                            </div>
-                            <!-- Panel Content Starts -->
-                        </div>
-                        <!-- Panel Ends -->
-                        <!-- Panel Starts -->
-                        <div class="panel panel-default">
-                            <!-- Panel Heading Starts -->
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
-                                        href="#collapse4">
-                                        How can I Close my Account?</a>
-                                </h4>
-                            </div>
-                            <!-- Panel Heading Ends -->
-                            <!-- Panel Content Starts -->
-                            <div id="collapse4" class="panel-collapse collapse">
-                                <div class="panel-body">In case you wish to stop using your account, please contact our
-                                    Clients support department via email</div>
-                            </div>
-                            <!-- Panel Content Starts -->
-                        </div>
-                        <!-- Panel Ends -->
-
-
-                    </div>
-                    <!-- Panel Group Ends -->
-                </div>
-
-            </div>
-        </div>
+        <div class="rounded_shape rounded_shape1"></div>
+        <div class="rounded_shape rounded_shape2"></div>
     </section>
-    <!-- Section FAQ Ends -->
-
-    <!-- Pricing Starts -->
-    {{-- <section class="pricing">
-        <div class="container">
-            <!-- Section Title Starts -->
-            <div class="row text-center">
-                <h2 class="title-head">Recent <span> Transactions</span></h2>
-                <div class="title-head-subtitle">
-                    <p>Newly recorded transactions on our platform</p>
-                </div>
-            </div>
-            <!-- Section Title Ends -->
-            <!-- Section Content Starts -->
-            <div class="row pricing-tables-content">
-                <div class="pricing-container">
-                    <!-- Pricing Switcher Starts -->
-                    <div class="pricing-switcher">
-                        <p>
-                            <input type="radio" name="switch" value="buy" id="buy-1" checked>
-                            <label for="buy-1">ALL</label>
-                        </p>
-                    </div>
-                    <!-- Pricing Switcher Ends -->
-                    <style>
-                        table {
-                            border-collapse: collapse;
-                            font-family: Tahoma, Geneva, sans-serif;
-                        }
-
-                        table td {
-                            padding: 15px;
-                        }
-
-                        table thead td {
-                            background-color: #54585d;
-                            color: #ffffff;
-                            font-weight: bold;
-                            font-size: 13px;
-                            border: 1px solid #54585d;
-                        }
-
-                        table tbody td {
-                            color: #636363;
-                            border: 1px solid #dddfe1;
-                        }
-
-                        table tbody tr {
-                            background-color: #f9fafb;
-                        }
-
-                        table tbody tr:nth-child(odd) {
-                            background-color: #ffffff;
-                        }
-                    </style>
-                    <!-- Pricing Tables Starts -->
-                    <ul class="pricing-list bounce-invert">
-                        <li class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <ul class="pricing-wrapper">
-                                <!-- Buy Pricing Table #1 Starts -->
-                                <li data-type="buy" class="is-visible" align=center>
-                                    <header class="pricing-header">
-                                        <h2>Deposits </h2> <br />
-                                        <table align=center>
-                                            <thead>
-                                                <tr>
-                                                    <td>No.</td>
-                                                    <td>Name</td>
-                                                    <td>Amount</td>
-                                                    <td>Method</td>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>1</td>
-                                                    <td>Marina Victoria </td>
-                                                    <td>$500</td>
-                                                    <td>Bitcoin</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2</td>
-                                                    <td>Marina Victoria </td>
-                                                    <td>$200</td>
-                                                    <td>Bitcoin</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>Marina Victoria </td>
-                                                    <td>$50</td>
-                                                    <td>Bitcoin</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>4</td>
-                                                    <td>Marina Victoria </td>
-                                                    <td>$50</td>
-                                                    <td>Bitcoin</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>5</td>
-                                                    <td>Marina Victoria </td>
-                                                    <td>$50</td>
-                                                    <td>Bitcoin</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </header>
-                                </li>
-                                <!-- Buy Pricing Table #1 Ends -->
-
-                            </ul>
-                        </li>
-                        <li class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <ul class="pricing-wrapper">
-                                <!-- Buy Pricing Table #2 Starts -->
-                                <li data-type="buy" class="is-visible" align=center>
-                                    <header class="pricing-header">
-                                        <h2>Withdrawals </h2> <br />
-                                        <table align=center>
-                                            <thead>
-                                                <tr>
-                                                    <td>No.</td>
-                                                    <td>Name</td>
-                                                    <td>Amount</td>
-                                                    <td>Method</td>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>1</td>
-                                                    <td>Emmanuel Pierre</td>
-                                                    <td>$400</td>
-                                                    <td>Bitcoin</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2</td>
-                                                    <td>Emmanuel Pierre</td>
-                                                    <td>$950</td>
-                                                    <td>Bitcoin</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>stine Augustine</td>
-                                                    <td>$280</td>
-                                                    <td>Bitcoin</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>4</td>
-                                                    <td>Flora. S Williams</td>
-                                                    <td>$102</td>
-                                                    <td>USDT</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>5</td>
-                                                    <td>Amelia Julian</td>
-                                                    <td>$600</td>
-                                                    <td>Bitcoin</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </header>
-                                </li>
-                                <!-- Buy Pricing Table #2 Ends -->
-
-                            </ul>
-                        </li>
-
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-    <!-- Pricing Ends -->
-
-    <!-- Quote and Chart Section Starts -->
-    <section class="image-block2">
-        <div class="container-fluid">
-            <div class="row">
-                <!-- Quote Starts -->
-                <div class="col-md-4 img-block-quote bg-image-2">
-                    <blockquote>
-                        <p>Bitcoin is one of the most important inventions in all of human history. For the first time
-                            ever, anyone can send or receive any amount of money with anyone else, anywhere on the
-                            planet, conveniently and without restriction. It’s the dawn of a better, more free world.
-                        </p>
-                        <footer><img src="images/ceo.jpg" alt="ceo" /> <span>Marc Smith</span> - CEO</footer>
-                    </blockquote>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- Quote and Chart Section Ends -->
-
-    <!-- Call To Action Section Starts -->
-    <section class="call-action-all">
-        <div class="call-action-all-overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <!-- Call To Action Text Starts -->
-                        <div class="action-text">
-                            <h2>Get Started Today With Sky stream exchange</h2>
-                            <p class="lead">Open account for free to start investing in Crypto!</p>
-                        </div>
-                        <!-- Call To Action Text Ends -->
-                        <!-- Call To Action Button Starts -->
-                        <p class="action-btn"><a class="btn btn-primary" href="{{ route('register') }}">Register
-                                Now</a></p>
-                        <!-- Call To Action Button Ends -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Call To Action Section Ends -->
+    <!-- START SECTION WHITEPAPER & CONTACT -->
 
 </x-guest-layout>
 {{--  --}}

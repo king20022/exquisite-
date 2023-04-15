@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'create'])->name('welcome');
 
 // to return the index 2  page
-Route::get('/home', [HomeController::class, 'show'])->name('home');
+// Route::get('/home', [HomeController::class, 'show'])->name('home');
 
 
 
