@@ -123,17 +123,7 @@
                         <div class="footer_logo animation" data-animation="fadeInUp" data-animation-delay="0.1s">
                             <a href="index.html"><img alt="logo" width="250px" src="assets44/images/logo.png"></a>
                         </div>
-                        <div class="newsletter_form large_space">
-                            <h4 class="animation footer_title" data-animation="fadeInUp" data-animation-delay="0.2s">
-                                Subscribe Our Newsletter</h4>
-                            <form class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">
-                                <div class="outline_input"><input type="text" required
-                                        placeholder="Enter Email Address" /></div>
-                                <button type="submit" title="Subscribe" class="btn btn-default" name="submit"
-                                    value="Submit">Subscribe <i class="fa fa-arrow-right"
-                                        style="font-size:14px"></i></button>
-                            </form>
-                        </div>
+                       
 
                     </div>
                 </div>

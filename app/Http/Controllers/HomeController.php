@@ -15,12 +15,7 @@ class HomeController extends Controller
         // return view('welcome');
     }
 
-    public function show()
-    {
-        $investment = Investment::all();
-        return view('home', compact('investment'));
-        // return view ('home');
-    }
+   
 
 
 }

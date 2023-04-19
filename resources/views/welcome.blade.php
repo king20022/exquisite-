@@ -49,8 +49,8 @@
                             are a type of derivative – meaning you'll take a position on market movements without doing
                             this by yourself, our system makes the moves.</p>
                     </div>
-                    <a href="{{ route ('login') }}" class="btn btn-default page-scroll animation" data-animation="fadeInUp"
-                        data-animation-delay="0.3s">Get started <i class="fa fa-arrow-right"
+                    <a href="{{ route('login') }}" class="btn btn-default page-scroll animation"
+                        data-animation="fadeInUp" data-animation-delay="0.3s">Get started <i class="fa fa-arrow-right"
                             style="font-size:14px"></i></a>
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12">
@@ -106,9 +106,9 @@
                             cryptocurrencies are limited entries in a database that no one can change unless specific
                             conditions are fulfilled.</p>
                     </div>
-                    <a href="{{ route ('register') }}" class="btn btn-default video animation" data-animation="fadeInUp"
-                        data-animation-delay="0.6s">Let's Start <i class="fa fa-arrow-right"
-                            style="font-size:14px"></i></a>
+                    <a href="{{ route('register') }}" class="btn btn-default video animation"
+                        data-animation="fadeInUp" data-animation-delay="0.6s">Let's Start <i
+                            class="fa fa-arrow-right" style="font-size:14px"></i></a>
                 </div>
             </div>
             <div class="divider large_divider"></div>
@@ -176,19 +176,23 @@
             <div class="row">
                 <div class="col-lg-7 col-md-12 col-sm-12 text_md_center">
                     <div class="title_dark">
-                        <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Live
-                            Trading</span>
+                        <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Investment Plan
+                            </span>
                         <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Pricing & values
                         </h2>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.1s">
-                                <h6>Starting time :</h6>
-                                <p>January 23, 2023 (Monday 9:00 AM)</p>
+                        @foreach ($investment as $investment)
+                            <div class="col-md-6 col-sm-12">
+                                <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                                    <h6>Starting time :</h6>
+                                    <p>January 23, 2023 (Monday 9:00 AM)</p>
+                                </div>
+
                             </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
+                        @endforeach
+
+                        {{-- <div class="col-md-6 col-sm-12">
                             <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.2s">
                                 <h6>Ending time :</h6>
                                 <p>June 06, 2023 (Monday 11:00 PM)</p>
@@ -217,7 +221,7 @@
                                 <h6>Acceptable Currency :</h6>
                                 <p>BTC, Eth, Ltc</p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-lg-5 offset-lg-0 col-md-8 offset-md-2 text_md_center res_md_mt_30">
@@ -230,7 +234,7 @@
                         data-animation-delay="0.1s">
                         <div class="tk_counter_inner">
                             <div class="tk_countdown_time" data-time="2023/06/06 00:00:00"></div>
-                            <a href="login.html" class="btn btn-default">Trade now <i class="fa fa-arrow-right"
+                            <a href="{{ route ('login')}}" class="btn btn-default">Trade now <i class="fa fa-arrow-right"
                                     style="font-size:14px"></i></a>
                         </div>
                     </div>
@@ -597,8 +601,7 @@
                                 <i class="fa fa-envelope" style="font-size:14px"></i>
                                 <div class="contact_detail">
                                     <span>Email</span>
-                                    <p><a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
-                                            data-cfemail="1f6c6a6f6f706d6b5f6b706f7b7078326d7a72766b6b7e717c7a317c7072">[email&#160;protected]</a>
+                                    <p><a href="#" >support@exquisite-remittance.com</a>
                                     </p>
                                 </div>
                             </li>
