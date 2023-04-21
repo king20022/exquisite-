@@ -543,7 +543,7 @@
                 </div>
                 <div class="divider small_divider"></div>
                 <div class="row">
-                    <div class="col-md-7 col-lg-6 offset-lg-1">
+                    {{-- <div class="col-md-7 col-lg-6 offset-lg-1">
                         <form method="post" name="enq" class="form_field">
                             <div class="row">
                                 <div class="form-group col-md-6 animation" data-animation="fadeInUp"
@@ -577,8 +577,8 @@
                                 </div>
                             </div>
                         </form>
-                    </div>
-                    <div class="col-lg-5 col-md-5 res_sm_mt_30">
+                    </div> --}}
+                    <div class="col-md-7 col-lg-6 offset-lg-1">
                         <ul class="list_none contact_info mt-margin">
                             <li class="input-group-prepend align-items-center animation" data-animation="fadeInUp"
                                 data-animation-delay="0.1s">
@@ -601,7 +601,7 @@
                                 <i class="fa fa-envelope" style="font-size:14px"></i>
                                 <div class="contact_detail">
                                     <span>Email</span>
-                                    <p><a href="#" >support@exquisite-remittance.com</a>
+                                    <p><a href="mailto:support@exquisite-remittance.com" class="btn btn-success "> <small>Contact Now Via Email</small></a>
                                     </p>
                                 </div>
                             </li>

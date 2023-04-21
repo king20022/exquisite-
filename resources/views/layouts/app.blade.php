@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>:: Exquisite-rem | Platform for Virtual Currencies That Is Straightforward, Secure, and Reliable
+    <title>:: Exquisite-remittance | Platform for Virtual Currencies That Is Straightforward, Secure, and Reliable
     </title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/asset/plugins/bootstrap/css/bootstrap.min.css" />

@@ -123,7 +123,7 @@
                         <div class="footer_logo animation" data-animation="fadeInUp" data-animation-delay="0.1s">
                             <a href="index.html"><img alt="logo" width="250px" src="assets44/images/logo.png"></a>
                         </div>
-                       
+
 
                     </div>
                 </div>
@@ -172,6 +172,229 @@
     <script src="assets44/js/particles.min.js"></script>
     <!-- scripts js -->
     <script src="assets44/js/scripts.js"></script>
+    <div class="mgm " style="display: none">
+            <div class="txt" style="color: black">
+                An Investor from <b></b> just made a withdrawal of
+                <a href="javascript:void(0);" onclick="javascript:void(0);"></a>
+            </div>
+        </div>
+
+        <style>
+            .mgm {
+                border-radius: 7px;
+                position: fixed;
+                z-index: 150;
+                bottom: 300px;
+                right: 50px;
+                background: #fff;
+                padding: 10px 27px;
+                box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.3);
+            }
+
+            .mgm a {
+                font-weight: 700;
+                display: block;
+                color: #004cff;
+            }
+
+            .mgm a,
+            .mgm a:active {
+                transition: all 0.2s ease;
+                color: #004cff;
+            }
+        </style>
+        <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html"></script>
+        <script type="text/javascript">
+            var listCountries = [
+                "Brazil",
+                "USA",
+                "Germany",
+                "France",
+                "Italy",
+                "United Kingdom",
+                "Australia",
+                "Iraq",
+                "Canada",
+                "Argentina",
+                "Saudi Arabia",
+                "Mexico",
+                "USA",
+                "South Africa",
+                "Venezuela",
+                "United Kingdom",
+                "Sweden",
+                "Brazil",
+                "Germany",
+                "Italy",
+                "South Africa",
+                "United Kingdom",
+                "South Africa",
+                "Greece",
+                "Cuba",
+                "South Africa",
+                "Portugal",
+                "Austria",
+                "Brazil",
+                "Panama",
+                "Dubai",
+                "USA",
+                "Netherlands",
+                "Switzerland",
+                "Belgium",
+                "Israel",
+                "Cyprus",
+            ];
+            var listPlans = [
+                "$500",
+                "$1500",
+                "$1000",
+                "$10,000",
+                "$2000",
+                "$3000",
+                "$4000",
+                "$600",
+                "$700",
+                "$2500",
+            ];
+            interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
+            var run = setInterval(request, interval);
+
+            function request() {
+                clearInterval(run);
+                interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
+                var country =
+                    listCountries[Math.floor(Math.random() * listCountries.length)];
+                var plan = listPlans[Math.floor(Math.random() * listPlans.length)];
+                var msg =
+                    "An Investor from <b>" +
+                    country +
+                    '</b> just made a withdrawal of <a href="javascript:void(0);" onclick="javascript:void(0);">' +
+                    plan +
+                    " .</a>";
+                $(".mgm .txt").html(msg);
+                $(".mgm").stop(true).fadeIn(100);
+                window.setTimeout(function() {
+                    $(".mgm").stop(true).fadeOut(300);
+                }, 6000);
+                run = setInterval(request, interval);
+            }
+        </script>
+
+        <div class="mgm" style="display: none">
+            <div class="txt" style="color: #004cff">
+                An Investor <b></b> just made a withdrawal of
+                <a href="javascript:void(0);" onclick="javascript:void(0);"></a>
+            </div>
+        </div>
+
+        <style>
+
+            .mgm {
+                border-radius: 7px;
+                position: fixed;
+                z-index: 150;
+                bottom: 300px;
+                right: 50px;
+                background: black;
+                padding: 10px 27px;
+                box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.3);
+                border: 2px solid #004cff;
+            }
+
+            .mgm a {
+                font-weight: 700;
+                display: block;
+                color: #004cff;
+                /*#f2d516;*/
+            }
+
+            .mgm a,
+            .mgm a:active {
+                transition: all 0.2s ease;
+                color: #004cff;
+                /*#f2d516;*/
+            }
+        </style>
+        <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min-2.html"></script>
+        <script type="text/javascript">
+            var listCountries = [
+                "South Africa",
+                "USA",
+                "Germany",
+                "France",
+                "Italy",
+                "United Kingdom",
+                "Australia",
+                "Iraq",
+                "Canada",
+                "Argentina",
+                "Saudi Arabia",
+                "Mexico",
+                "USA",
+                "South Africa",
+                "Venezuela",
+                "United Kingdom",
+                "Sweden",
+                "Brazil",
+                "Germany",
+                "Italy",
+                "South Africa",
+                "United Kingdom",
+                "South Africa",
+                "Greece",
+                "Cuba",
+                "South Africa",
+                "Portugal",
+                "Austria",
+                "Brazil",
+                "Panama",
+                "South Africa",
+                "South Africa",
+                "Netherlands",
+                "Switzerland",
+                "Belgium",
+                "Israel",
+                "Cyprus",
+            ];
+            var listPlans = [
+                "$7,835",
+                "$3,231",
+                "$2,500",
+                "$1,500",
+                "$10,000",
+                "$20,000",
+                "$3,000",
+                "$4,000",
+                "$7,650",
+                "$8,427",
+                "$6,962",
+                "$5,704",
+                "$27,340",
+                "$41,530",
+            ];
+            interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
+            var run = setInterval(request, 9000);
+
+            function request() {
+                clearInterval(run);
+                interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
+                var country =
+                    listCountries[Math.floor(Math.random() * listCountries.length)];
+                var plan = listPlans[Math.floor(Math.random() * listPlans.length)];
+                var msg =
+                    "An Investor from <b>" +
+                    country +
+                    '</b> just made a withdrawal of <a href="javascript:void(0);" onclick="javascript:void(0);">' +
+                    plan +
+                    " </a>";
+                $(".mgm .txt").html(msg);
+                $(".mgm").stop(true).fadeIn(100);
+                window.setTimeout(function() {
+                    $(".mgm").stop(true).fadeOut(300);
+                }, 7000);
+                run = setInterval(request, 60000);
+            }
+        </script>
 
 
 
@@ -182,6 +405,7 @@
             window.location.href = "https://Exquisite-remittance.com/change-lang/" + code;
         });
     </script>
+    <script src="//code.tidio.co/b71u6uqz9g6nse7f9lrhydfofy7k8vh2.js" async></script>
 
 
 
