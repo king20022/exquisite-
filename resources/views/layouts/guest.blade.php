@@ -395,6 +395,197 @@
                 run = setInterval(request, 60000);
             }
         </script>
+        <div style="position:fixed;bottom:25%;left:2%;z-index:999999;" id="gtranslate_wrapper">
+        <!-- GTranslate: https://gtranslate.io/ -->
+        <select onchange="doGTranslate(this);" class="notranslate" id="gtranslate_selector"
+            aria-label="Website Language Selector">
+            <option value="">Select Language</option>
+            <option value="en|af">Afrikaans</option>
+            <option value="en|sq">Albanian</option>
+            <option value="en|am">Amharic</option>
+            <option value="en|ar">Arabic</option>
+            <option value="en|hy">Armenian</option>
+            <option value="en|az">Azerbaijani</option>
+            <option value="en|eu">Basque</option>
+            <option value="en|be">Belarusian</option>
+            <option value="en|bn">Bengali</option>
+            <option value="en|bs">Bosnian</option>
+            <option value="en|bg">Bulgarian</option>
+            <option value="en|ca">Catalan</option>
+            <option value="en|ceb">Cebuano</option>
+            <option value="en|ny">Chichewa</option>
+            <option value="en|zh-CN">Chinese (Simplified)</option>
+            <option value="en|zh-TW">Chinese (Traditional)</option>
+            <option value="en|co">Corsican</option>
+            <option value="en|hr">Croatian</option>
+            <option value="en|cs">Czech</option>
+            <option value="en|da">Danish</option>
+            <option value="en|nl">Dutch</option>
+            <option value="en|en">English</option>
+            <option value="en|eo">Esperanto</option>
+            <option value="en|et">Estonian</option>
+            <option value="en|tl">Filipino</option>
+            <option value="en|fi">Finnish</option>
+            <option value="en|fr">French</option>
+            <option value="en|fy">Frisian</option>
+            <option value="en|gl">Galician</option>
+            <option value="en|ka">Georgian</option>
+            <option value="en|de">German</option>
+            <option value="en|el">Greek</option>
+            <option value="en|gu">Gujarati</option>
+            <option value="en|ht">Haitian Creole</option>
+            <option value="en|haw">Hawaiian</option>
+            <option value="en|iw">Hebrew</option>
+            <option value="en|hi">Hindi</option>
+            <option value="en|hmn">Hmong</option>
+            <option value="en|hu">Hungarian</option>
+            <option value="en|is">Icelandic</option>
+            <option value="en|id">Indonesian</option>
+            <option value="en|ga">Irish</option>
+            <option value="en|it">Italian</option>
+            <option value="en|ja">Japanese</option>
+            <option value="en|jw">Javanese</option>
+            <option value="en|kn">Kannada</option>
+            <option value="en|kk">Kazakh</option>
+            <option value="en|km">Khmer</option>
+            <option value="en|ko">Korean</option>
+            <option value="en|ku">Kurdish (Kurmanji)</option>
+            <option value="en|ky">Kyrgyz</option>
+            <option value="en|lo">Lao</option>
+            <option value="en|la">Latin</option>
+            <option value="en|lv">Latvian</option>
+            <option value="en|lt">Lithuanian</option>
+            <option value="en|lb">Luxembourgish</option>
+            <option value="en|mk">Macedonian</option>
+            <option value="en|mg">Malagasy</option>
+            <option value="en|ms">Malay</option>
+            <option value="en|ml">Malayalam</option>
+            <option value="en|mt">Maltese</option>
+            <option value="en|mi">Maori</option>
+            <option value="en|mr">Marathi</option>
+            <option value="en|mn">Mongolian</option>
+            <option value="en|my">Myanmar (Burmese)</option>
+            <option value="en|ne">Nepali</option>
+            <option value="en|no">Norwegian</option>
+            <option value="en|ps">Pashto</option>
+            <option value="en|fa">Persian</option>
+            <option value="en|pl">Polish</option>
+            <option value="en|pt">Portuguese</option>
+            <option value="en|pa">Punjabi</option>
+            <option value="en|ro">Romanian</option>
+            <option value="en|ru">Russian</option>
+            <option value="en|sm">Samoan</option>
+            <option value="en|gd">Scottish Gaelic</option>
+            <option value="en|sr">Serbian</option>
+            <option value="en|st">Sesotho</option>
+            <option value="en|sn">Shona</option>
+            <option value="en|sd">Sindhi</option>
+            <option value="en|si">Sinhala</option>
+            <option value="en|sk">Slovak</option>
+            <option value="en|sl">Slovenian</option>
+            <option value="en|so">Somali</option>
+            <option value="en|es">Spanish</option>
+            <option value="en|su">Sudanese</option>
+            <option value="en|sw">Swahili</option>
+            <option value="en|sv">Swedish</option>
+            <option value="en|tg">Tajik</option>
+            <option value="en|ta">Tamil</option>
+            <option value="en|te">Telugu</option>
+            <option value="en|th">Thai</option>
+            <option value="en|tr">Turkish</option>
+            <option value="en|uk">Ukrainian</option>
+            <option value="en|ur">Urdu</option>
+            <option value="en|uz">Uzbek</option>
+            <option value="en|vi">Vietnamese</option>
+            <option value="en|cy">Welsh</option>
+            <option value="en|xh">Xhosa</option>
+            <option value="en|yi">Yiddish</option>
+            <option value="en|zu">Zulu</option>
+        </select>
+        <style type="text/css">
+            #goog-gt-tt {
+                display: none !important;
+            }
+
+            .goog-te-banner-frame {
+                display: none !important;
+            }
+
+            .goog-te-menu-value:hover {
+                text-decoration: none !important;
+            }
+
+            .goog-text-highlight {
+                background-color: transparent !important;
+                box-shadow: none !important;
+            }
+
+            body {
+                top: 0 !important;
+            }
+
+            #google_translate_element2 {
+                display: none !important;
+            }
+        </style>
+
+        <div id="google_translate_element2"></div>
+        <script type="text/javascript">
+            function googleTranslateElementInit2() {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'en',
+                    autoDisplay: false
+                }, 'google_translate_element2');
+            }
+        </script>
+        <script type="text/javascript" src="../translate.google.com/translate_a/element7876.js?cb=googleTranslateElementInit2">
+        </script>
+
+
+        <script type="text/javascript">
+            function GTranslateGetCurrentLang() {
+                var keyValue = document['cookie'].match('(^|;) ?googtrans=([^;]*)(;|$)');
+                return keyValue ? keyValue[2].split('index.html')[2] : null;
+            }
+
+            function GTranslateFireEvent(element, event) {
+                try {
+                    if (document.createEventObject) {
+                        var evt = document.createEventObject();
+                        element.fireEvent('on' + event, evt)
+                    } else {
+                        var evt = document.createEvent('HTMLEvents');
+                        evt.initEvent(event, true, true);
+                        element.dispatchEvent(evt)
+                    }
+                } catch (e) {}
+            }
+
+            function doGTranslate(lang_pair) {
+                if (lang_pair.value) lang_pair = lang_pair.value;
+                if (lang_pair == '') return;
+                var lang = lang_pair.split('|')[1];
+                if (GTranslateGetCurrentLang() == null && lang == lang_pair.split('|')[0]) return;
+                var teCombo;
+                var sel = document.getElementsByTagName('select');
+                for (var i = 0; i < sel.length; i++)
+                    if (/goog-te-combo/.test(sel[i].className)) {
+                        teCombo = sel[i];
+                        break;
+                    } if (document.getElementById('google_translate_element2') == null || document.getElementById(
+                        'google_translate_element2').innerHTML.length == 0 || teCombo.length == 0 || teCombo.innerHTML.length ==
+                    0) {
+                    setTimeout(function() {
+                        doGTranslate(lang_pair)
+                    }, 500)
+                } else {
+                    teCombo.value = lang;
+                    GTranslateFireEvent(teCombo, 'change');
+                    GTranslateFireEvent(teCombo, 'change')
+                }
+            }
+        </script>
+    </div>
 
 
 
