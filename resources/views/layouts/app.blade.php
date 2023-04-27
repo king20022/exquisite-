@@ -131,7 +131,7 @@
     <nav class="navbar clearHeader">
         <div class="col-12">
             <div class="navbar-header"> <a href="javascript:void(0);" class="bars"></a> <a class="navbar-brand"
-                    href="#"> Sky Stream</a> </div>
+                    href="#"> Exquisite</a> </div>
 
         </div>
     </nav>
