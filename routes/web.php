@@ -19,7 +19,58 @@ use Illuminate\Support\Facades\Route;
 
 
 // to return the homepage
+// to return the homepage
 Route::get('/', [HomeController::class, 'create'])->name('welcome');
+
+// to return the about page
+Route::get('/about', [HomeController::class, 'show'])->name('about');
+
+// to return the responsibility page
+Route::get('/responsibility', [HomeController::class, 'showOne'])->name('responsibility');
+
+// to return insights page
+Route::get('/insights', [HomeController::class, 'showTwo'])->name('insights');
+
+Route::get('/alternative', [HomeController::class, 'three'])->name('alternative');
+
+Route::get('/real-asset', [HomeController::class, 'four'])->name('realasset');
+
+Route::get('/realestate', [HomeController::class, 'five'])->name('realestate');
+
+Route::get('/stocks', [HomeController::class, 'six'])->name('stocks');
+
+Route::get('/structure', [HomeController::class, 'seven'])->name('structure');
+
+
+Route::get('/forex', [HomeController::class, 'eight'])->name('forex');
+
+Route::get('/crypto', [HomeController::class, 'nine'])->name('crypto');
+
+Route::get('/fixed', [HomeController::class, 'ten'])->name('fixed');
+
+Route::get('/multi', [HomeController::class, 'eleven'])->name('multi');
+
+Route::get('/power', [HomeController::class, 'twelve'])->name('power');
+
+Route::get('/culture', [HomeController::class, 'thirteen'])->name('culture');
+
+Route::get('/nfp', [HomeController::class, 'fourteen'])->name('nfp');
+
+// planning starts here
+
+Route::get('/financial', [HomeController::class, 'ne'])->name('financial');
+
+Route::get('/retirement', [HomeController::class, 'wo'])->name('retirement');
+
+Route::get('/private', [HomeController::class, 'hree'])->name('private');
+
+Route::get('/estate', [HomeController::class, 'our'])->name('estate');
+
+Route::get('/lonterm', [HomeController::class, 'ive'])->name('longterm');
+
+Route::get('/business', [HomeController::class, 'ix'])->name('business');
+
+Route::get('/oilgas', [HomeController::class, 'even'])->name('oilgas');
 
 
 

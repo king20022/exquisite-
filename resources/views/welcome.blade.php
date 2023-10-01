@@ -1,494 +1,402 @@
 <x-guest-layout>
+    <main>
+        <div id="Hero" data-easing="ease-in" class="hero-section w-tabs">
+            <div class="tabs-content w-tab-content">
 
-    <!-- START SECTION BANNER -->
-    <section id="home" class="banner_section section_gradiant">
-        <div id="banner_bg_effect" class="banner_effect"></div>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-12 col-sm-12 order-lg-first text_md_center">
-                    <div class="banner_text">
-                        <h1 class="animation" data-animation="fadeInUp" data-animation-delay="1.5s"><span>Exquisite
-                                Remittance</span> Bitcoin trading</h1>
-                        <h3 class="animation" data-animation="fadeInUp" data-animation-delay="1.6s">Start Bitcoin
-                            Trading Today!</h3>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="1.7s">The highest paying
-                            Bitcoin trading pool and cloud trading provider on the market. Start trading Bitcoin today!
-                        </p>
-                        <div class="banner_btn animation" data-animation="fadeInUp" data-animation-delay="1.8s">
-                            <a href="{{ route('register') }}" class="btn btn-default page-scroll nav-link">Sign up <i
-                                    class="fa fa-arrow-right" style="font-size:14px"></i></a>
-                            <a href="{{ route('login') }}" class="btn btn-border">Sign in <i class="fa fa-arrow-right"
-                                    style="font-size:14px"></i></a>
+                <div data-w-tab="Tab 1" class="tab-pane w-pane _1 w-tab-pane w--tab-active"
+                    style="background-image:url(public/img/team1.jpg); background-position:center; background-size: cover; background-repeat:no-repeat;">
+                    <div class="content-wrapper w-container">
+                        <div class="hero-text">
+                            <div data-w-id="4dfd0268-6e8b-57ae-dc2a-f8240544330c"
+                                style="-webkit-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);"
+                                class="title-white"> ****** </div>
+                            <h1 data-w-id="4dfd0268-6e8b-57ae-dc2a-f8240544330e"
+                                style="-webkit-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);color:white !important"
+                                class="hero-heading">Fully Invested in <br /><span class="text-red"
+                                    style="color: #fcb42d">Better Outcomes</span>
+                            </h1>
+                            <div class="center-flex" style="background-color: #fcb42d">
+                                <div data-w-id="4dfd0268-6e8b-57ae-dc2a-f82405443314"
+                                    style="-webkit-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);"
+                                    class="red-line" style="background-color:#fcb42d"></div>
+                            </div>
+                            <div class="subtitle-box">
+                                <p data-w-id="4dfd0268-6e8b-57ae-dc2a-f82405443316"
+                                    style="-webkit-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);"
+                                    class="subtitle-white">As a global investment firm, we foster diverse perspectives
+                                    and
+                                    embrace <br /> innovation to help our clients navigate the uncertainty of capital
+                                    markets</p>
+                            </div><a href="{{ route('register') }}" data-w-id="4dfd0268-6e8b-57ae-dc2a-f8240544331a"
+                                style="-webkit-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);"
+                                class="button w-button btnhov">GET STARTED</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 order-first">
-                    <div class="banner_image_right res_md_mb_50 res_xs_mb_30 animation" data-animation="fadeInRight"
-                        data-animation-delay="1.5s">
-                        <img src="assets44/images/banner_vector.png" alt="banner_vector" />
+
+                <div data-w-tab="Tab 2" class="tab-pane w-pane _3 w-tab-pane"
+                    style="background-image:url(public/img/team2.jpg); background-position:center; background-size: cover; background-repeat:no-repeat; ">
+                    <div class="content-wrapper w-container">
+                        <div class="hero-text">
+                            <div class="title-white"> ***** </div>
+                            <h1 class="hero-heading" style="color:black !important">Value investing <br /><span
+                                    class="text-red" style="color:#fcb42d">redefined</span></h1>
+                            <div class="center-flex">
+                                <div class="red-line" style="background-color:#fcb42d"></div>
+                            </div>
+                            <div class="subtitle-box">
+                                <p class="subtitle-white">At Exquisitecryptoventures, we create value by sticking
+                                    to our
+                                    consistent
+                                    investment <br />philosophy and disciplined research process</p>
+                            </div><a href="{{ route('register') }}" class="button w-button btnhov">GET STARTED</a>
+                        </div>
                     </div>
                 </div>
+                <div data-w-tab="Tab 3" class="tab-pane w-pane _3 w-tab-pane"
+                    style="background-image:url(public/img/team3.jpg); background-position:center; background-size: cover; background-repeat:no-repeat; ">
+                    <div class="content-wrapper w-container">
+                        <div class="hero-text">
+                            <div class="title-white"> ***** </div>
+                            <h1 class="hero-heading">Building prosperity, security <br /><span class="text-red"
+                                    style="color:#fcb42d"> &
+                                    opportunity</span></h1>
+                            <div class="center-flex">
+                                <div class="red-line" style="background-color:#fcb42d"></div>
+                            </div>
+                            <div class="subtitle-box">
+                                <p class="subtitle-white">Discover the Exquisitecryptoventures difference and view
+                                    our <br />
+                                    Investment
+                                    Performance Highlights.</p>
+                            </div><a href="{{ route('register') }}" class="button w-button btnhov">GET STARTED</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="tabs-menu w-tab-menu"><a data-w-tab="Tab 1" id="t-link1"
+                    class="tab-link  w-inline-block w-tab-link w--current">
+                    <div>Stocks </div>
+                </a><a data-w-tab="Tab 2" id="t-link2" class="tab-link w-inline-block w-tab-link">
+                    <div>Forex </div>
+                </a><a data-w-tab="Tab 3" id="t-link3" class="tab-link w-inline-block w-tab-link">
+                    <div>Infrastructure </div>
+                </a>
             </div>
         </div>
-        <div class="section_wave" style="background-image:url('assets44/images/banner_wave.png');"></div>
-    </section>
-    <!-- END SECTION BANNER -->
-
-    <!-- START SECTION HOW IT WORK -->
-    <section id="how_it_work" class="how_work" data-parallax="scroll"
-        data-image-src="assets44/images/how_it_work_bg.html">
-
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5 col-md-12 col-sm-12">
-                    <div class="title_dark">
-                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">How it Works</h2>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Traditionally,
-                            bitcoin trading has involved the buying and selling of the cryptocurrency on an exchange.
-                            But, you can also trade on bitcoin by speculating on its price movements using CFDs. These
-                            are a type of derivative – meaning you'll take a position on market movements without doing
-                            this by yourself, our system makes the moves.</p>
-                    </div>
-                    <a href="{{ route('login') }}" class="btn btn-default page-scroll animation"
-                        data-animation="fadeInUp" data-animation-delay="0.3s">Get started <i class="fa fa-arrow-right"
-                            style="font-size:14px"></i></a>
-                </div>
-                <div class="col-lg-7 col-md-12 col-sm-12">
-                    <div class="work_box animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                        <div class="box_inner"> <i class="fa fa-user" style="font-size:34px"></i>
-                            <h4>Create Account</h4>
-                            <p>Bitcoin Core, however, is a full node, meaning it helps verify and transmit other Bitcoin
-                                transactions across the network and stores copy of the entire blockchain.</p>
-                        </div>
-                    </div>
-                    <div class="work_box animation" data-animation="fadeInUp" data-animation-delay="0.5s">
-                        <div class="box_inner"> <i class="fa fa-lock" style="font-size:34px"></i>
-                            <h4>Safe & Secure</h4>
-                            <p>We take careful measures to ensure that your bitcoin is as safe as possible. Offline
-                                storage provides an
-                                important security measure against theft or loss. </p>
-                        </div>
-                    </div>
-                    <div class="work_box animation" data-animation="fadeInUp" data-animation-delay="0.6s">
-                        <div class="box_inner"> <i class="fa fa-money" style="font-size:34px"></i>
-                            <h4>Trading</h4>
-                            <p>Blockchain works with exchange partners all around the world to make buying bitcoin in
-                                your wallet both a seamless and secure experience.</p>
-                        </div>
-                    </div>
-                </div>
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener"
+                    target="_blank">
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+                        {
+                            "symbols": [{
+                                    "proName": "FOREXCOM:SPXUSD",
+                                    "title": "S&P 500"
+                                },
+                                {
+                                    "proName": "FOREXCOM:NSXUSD",
+                                    "title": "US 100"
+                                },
+                                {
+                                    "proName": "FX_IDC:EURUSD",
+                                    "title": "EUR/USD"
+                                },
+                                {
+                                    "proName": "BITSTAMP:BTCUSD",
+                                    "title": "Bitcoin"
+                                },
+                                {
+                                    "proName": "BITSTAMP:ETHUSD",
+                                    "title": "Ethereum"
+                                }
+                            ],
+                            "colorTheme": "dark",
+                            "isTransparent": true,
+                            "showSymbolLogo": true,
+                            "locale": "en"
+                        }
+                    </script>
             </div>
-        </div>
-        <div class="shape shap1"></div>
-    </section>
-    <!-- END SECTION HOW IT WORK -->
-
-    <!-- START SECTION ABOUT US -->
-    <section id="about" class="section_gradiant">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="animation res_sm_mb_30" data-animation="fadeInLeft" data-animation-delay="0.1s">
-                        <img src="assets44/images/about_img.png" alt="aboutimg" />
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="title_light">
-                        <span class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">What is Exquisite
-                            Remittance</span>
-                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">About The Exquisite
-                            Remittance</h2>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">A cryptocurrency is a
-                            digital or virtual currency designed to work as a medium of exchange. It uses cryptography
-                            to secure and verify transactions as well as to control the creation of new units of a
-                            particular cryptocurrency. </p>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.5s">Essentially,
-                            cryptocurrencies are limited entries in a database that no one can change unless specific
-                            conditions are fulfilled.</p>
-                    </div>
-                    <a href="{{ route('register') }}" class="btn btn-default video animation"
-                        data-animation="fadeInUp" data-animation-delay="0.6s">Let's Start <i
-                            class="fa fa-arrow-right" style="font-size:14px"></i></a>
-                </div>
-            </div>
-            <div class="divider large_divider"></div>
-            <div class="row text-center">
-                <div class="col-lg-8 col-md-12 offset-lg-2">
-                    <div class="title_light">
-                        <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Why Exquisite
-                            Remittance</span>
-                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Competitive
-                            Benefit</h2>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">There are great
-                            opportunities for traders to generate profits and enjoy other benefits. By participating in
-                            a crypto trading plan, you could take advantage of the significant benefits that contribute
-                            to your potential success in exciting ways.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row text-center small_space benefit_wrap">
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.1s">
-                        <img src="assets44/images/secure.png" alt="secure" />
-                        <h6>Safe & Secure</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-                        <img src="assets44/images/token.png" alt="Trading" />
-                        <h6>Safe Trading</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.3s">
-                        <img src="assets44/images/payment.png" alt="payment" />
-                        <h6>Easy Payment</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                        <img src="assets44/images/case.png" alt="case" />
-                        <h6>Daily Cash Outs</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.5s">
-                        <img src="assets44/images/app.png" alt="app" />
-                        <h6>Smart Application</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="benefit_box animation" data-animation="fadeInUp" data-animation-delay="0.6s">
-                        <img src="assets44/images/dilution.png" alt="dilution" />
-                        <h6>NO DILUTION</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="rounded_shape rounded_shape1"></div>
-        <div class="rounded_shape rounded_shape2"></div>
-    </section>
-    <!-- END SECTION ABOUT US -->
-
-    <!-- START SECTION TOKEN -->
-    <section id="token" class="section_token">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-md-12 col-sm-12 text_md_center">
-                    <div class="title_dark">
-                        <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Investment Plan
-                            </span>
-                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Pricing & values
-                        </h2>
-                    </div>
-                    <div class="row">
-                        @foreach ($investment as $investment)
-                            <div class="col-md-6 col-sm-12">
-                                <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.1s">
-                                    <h6>Starting time :</h6>
-                                    <p>January 23, 2023 (Monday 9:00 AM)</p>
-                                </div>
-
-                            </div>
-                        @endforeach
-
-                        {{-- <div class="col-md-6 col-sm-12">
-                            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-                                <h6>Ending time :</h6>
-                                <p>June 06, 2023 (Monday 11:00 PM)</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.3s">
-                                <h6>Market Caps :</h6>
-                                <p>$ 118.23 (Billion)</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                <h6>Low - High 24h :</h6>
-                                <p>$ 6,455.83 - $ 7,071.42</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.5s">
-                                <h6>Traded :</h6>
-                                <p>$ 132 (Billion)</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <div class="pr_box animation" data-animation="fadeInUp" data-animation-delay="0.6s">
-                                <h6>Acceptable Currency :</h6>
-                                <p>BTC, Eth, Ltc</p>
-                            </div>
-                        </div> --}}
-                    </div>
-                </div>
-                <div class="col-lg-5 offset-lg-0 col-md-8 offset-md-2 text_md_center res_md_mt_30">
-                    <div class="title_dark">
-                        <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Start In</span>
-                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Trading is ON
-                            LIVE now!</h2>
-                    </div>
-                    <div class="tk_countdown text-center animation countdown_shape" data-animation="fadeInUp"
-                        data-animation-delay="0.1s">
-                        <div class="tk_counter_inner">
-                            <div class="tk_countdown_time" data-time="2023/06/06 00:00:00"></div>
-                            <a href="{{ route ('login')}}" class="btn btn-default">Trade now <i class="fa fa-arrow-right"
-                                    style="font-size:14px"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="divider large_divider"></div>
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <div class="title_dark">
-                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Trading Proceeds
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center res_md_mt_20">
-                <div class="col-md-7">
-                    <div class="res_sm_mb_30 text-center animation" data-animation="fadeInLeft"
-                        data-animation-delay="0.2s">
-                        <img src="assets44/images/sale-proceeds.png" alt="sale-proceeds" />
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <ul class="list_none chart_list">
-                        <li class="color1 animation" data-animation="fadeInUp" data-animation-delay="0.3s">
-                            interconnection Dev.</li>
-                        <li class="color2 animation" data-animation="fadeInUp" data-animation-delay="0.4s">Marketing
-                            & General</li>
-                        <li class="color3 animation" data-animation="fadeInUp" data-animation-delay="0.5s">Mobile Ad
-                            Platform</li>
-                        <li class="color4 animation" data-animation="fadeInUp" data-animation-delay="0.6s">Ad
-                            Platform Integration</li>
-                        <li class="color5 animation" data-animation="fadeInUp" data-animation-delay="0.7s">
-                            Operational Overhead</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="divider large_divider"></div>
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <div class="title_dark">
-                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Distribution</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center flex-row-reverse res_md_mt_20">
-                <div class="col-md-7">
-                    <div class="res_sm_mb_30 text-center animation" data-animation="fadeInRight"
-                        data-animation-delay="0.2s">
-                        <img src="assets44/images/token-distribution.png" alt="distribution" />
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <ul class="list_none chart_list">
-                        <li class="color4 animation" data-animation="fadeInUp" data-animation-delay="60.3s">Traded
-                        </li>
-                        <li class="color6 animation" data-animation="fadeInUp" data-animation-delay="1.4s">Build Out
-                        </li>
-                        <li class="color7 animation" data-animation="fadeInUp" data-animation-delay="0.5s">Team &
-                            Advisers</li>
-                        <li class="color3 animation" data-animation="fadeInUp" data-animation-delay="0.6s">Private
-                            Investors</li>
-                        <li class="color2 animation" data-animation="fadeInUp" data-animation-delay="0.7s">Bounty
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="shape shap1"></div>
-        <div class="shape shap2"></div>
-    </section>
-    <!-- END SECTION TOKEN -->
-
-    <!-- START SECTION TIMELINE & MOBILE APP -->
-    <section id="road_map" class="section_gradiant2">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-8 col-md-12 offset-lg-2">
-                    <div class="title_light">
-                        <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Timeline</span>
-                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Exquisite
-                            Remittance Timeline</h2>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Cryptominded is a
-                            curated directory of the best cryptocurrency resources. We're slowly transforming the
-                            website into the best place for beginners to learn about cryptocurrencies Trading.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="roadmap owl-carousel small_space animation" data-animation="fadeInUp"
-                data-animation-delay="0.4s">
-                <div class="item">
-                    <div class="roadmap_box rd_complete">
-                        <div class="roadmap_inner">
-                            <div class="roadmap_icon icon_gradient_box"></div>
-                            <h6>January 2022</h6>
-                            <p>Trading Started</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="roadmap_box rd_complete">
-                        <div class="roadmap_inner">
-                            <div class="roadmap_icon icon_gradient_box"></div>
-                            <h6>February 2022</h6>
-                            <p>All Deposit Processed</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="roadmap_box">
-                        <div class="roadmap_inner">
-                            <div class="roadmap_icon icon_gradient_box"></div>
-                            <h6>March 2022</h6>
-                            <p>Trading In-progress</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="roadmap_box">
-                        <div class="roadmap_inner">
-                            <div class="roadmap_icon icon_gradient_box"></div>
-                            <h6>June 2022</h6>
-                            <p>All Deposit Processed</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="roadmap_box">
-                        <div class="roadmap_inner">
-                            <div class="roadmap_icon icon_gradient_box"></div>
-                            <h6>October 2022</h6>
-                            <p>Coin Marketcap, World Coin Index</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="roadmap_box">
-                        <div class="roadmap_inner">
-                            <div class="roadmap_icon icon_gradient_box"></div>
-                            <h6>December 2022</h6>
-                            <p>All withdrawal Processed</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="roadmap_box">
-                        <div class="roadmap_inner">
-                            <div class="roadmap_icon icon_gradient_box"></div>
-                            <h6>December 2022</h6>
-                            <p>Trading Bitcoin</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="roadmap_box">
-                        <div class="roadmap_inner">
-                            <div class="roadmap_icon icon_gradient_box"></div>
-                            <h6>December 2022</h6>
-                            <p>All withdrawal Processed</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- TradingView Widget END -->
 
 
-            <div style="background-image:url('assets44/images/wave.html');" class="section_wave2"></div>
-    </section>
-    <!-- END SECTION TIMELINE & MOBILE APP -->
 
-    <!-- START SECTION FAQ -->
-    <section id="team" class="team_wrap" data-parallax="scroll" data-image-src="assets44/images/team_bg.png">
-        <div class="container">
+            <div id="Meals" data-w-id="951a5aea-0c94-bead-267a-f4d02c37cbb3" class="content-section"
+                style="margin-bottom:0px !important">
+                <div class="content-wrapper w-container">
+                    <div class="flex">
 
-
-            <div id="faq">
-                <div class="divider large_divider"></div>
-                <div class="row text-center">
-                    <div class="col-lg-8 col-md-12 offset-lg-2">
-                        <div class="title_dark">
-                            <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">FAQs</span>
-                            <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Frequently
-                                Asked Questions</h2>
-                            <p class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Frequently
-                                asked questions (FAQ) or Questions and Answers (Q&A), are listed questions and answers,
-                                all supposed to be commonly asked in some context</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row small_space">
-                    <div class="col-lg-8 col-md-12 offset-lg-2">
-                        <div id="accordion" class="faq_content">
-                            <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.1s">
-                                <div class="card-header" id="headingOne">
-                                    <h6 class="mb-0"> <a data-toggle="collapse" class="gradient_box"
-                                            href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What
-                                            is cryptocurrency?</a> </h6>
-                                </div>
-                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                    data-parent="#accordion">
-                                    <div class="card-body gradient_box"> Cryptocurrency is a form of payment that can
-                                        be exchanged online for goods and services. Many companies have issued their own
-                                        currencies, often called trading, and these can be traded specifically for the
-                                        good or service that the company provides. Think of them as you would arcade
-                                        trading or casino chips. You'll need to exchange real currency for the
-                                        cryptocurrency to access the good or service. </div>
+                        <div data-w-id="311e2a2e-91b9-3f0d-61de-29a5bdd9323c" class="_2-60-column">
+                            <div class="bottom-border">
+                                <div class="header-flex-stretch">
+                                    <div class="header-border-flex">
+                                        <h2 class="h2-title-green">*******
+                                        </h2>
+                                    </div>
+                                    <div class="_2-top-padding">
+                                        <div class="green-line"></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-                                <div class="card-header" id="headingTwo">
-                                    <h6 class="mb-0"> <a class="collapsed gradient_box" data-toggle="collapse"
-                                            href="#collapseTwo" aria-expanded="false"
-                                            aria-controls="collapseTwo">Which cryptocurrency is best to buy today?</a>
-                                    </h6>
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <h4 class=" h2-title">We started trading on financial markets more than 15 years
+                                        ago. We have been devoted to full time trading since 2011, gaining lots of
+                                        experience, which we decided to offer to a wider number of people. In 2015 we
+                                        began offering clients training courses. Thousands of satisfied clients have
+                                        already passed our courses. </h4>
+                                    <ul>
+                                        <li> A personalized plan that brings all aspects of your financial life together
+                                        </li>
+                                        <li> A strategic mix of insurance and investments working together for your
+                                            goals
+                                        </li>
+                                        <li> Your go-to financial expert who helps keep your big picture, and dreams, in
+                                            focus
+                                        </li>
+                                    </ul>
+                                    <br /><br />
+                                    <a href="#" target="_blank" class="button w-button"
+                                        style="background-color:#fcb42d">View Certificate of Incoporation</a>
                                 </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                    data-parent="#accordion">
-                                    <div class="card-body gradient_box"> The best cryptocurrency to buy is one we are
-                                        willing to hold onto even if it goes down. For example, I believe in Steem
-                                        enough that I am willing to hold it even if it goes down 99% and would start
-                                        buying more of it if the price dropped. </div>
-                                </div>
-                            </div>
-                            <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.3s">
-                                <div class="card-header" id="headingThree">
-                                    <h6 class="mb-0"> <a class="collapsed gradient_box" data-toggle="collapse"
-                                            href="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">How about day trading crypto?</a> </h6>
-                                </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                    data-parent="#accordion">
-                                    <div class="card-body gradient_box"> While profits are possible trading
-                                        cryptocurrencies, so are losses. My first year involved me spending hundreds of
-                                        hours trading Bitcoin with a result of losing over $5,000 with nothing to show
-                                        for it. Simply trading digital currencies is very similar to gambling because no
-                                        one really knows what is going to happen next although anyone can guess! While I
-                                        was lucky to do nothing expect lose money when I started, the worst thing that
-                                        can happen is to get lucky right away and get a big ego about what an amazing
-                                        cryptocurrency trader we are. </div>
+                                <div class="col-lg-6 col-12">
+                                    <img src="public/img/certificate.jpg" class="img-fluid"
+                                        alt="a company certificate" />
                                 </div>
                             </div>
-                            <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                                <div class="card-header" id="headingFour">
-                                    <h6 class="mb-0"> <a class="collapsed gradient_box" data-toggle="collapse"
-                                            href="#collapseFour" aria-expanded="false"
-                                            aria-controls="collapseFour">When to sell a cryptocurrency?</a> </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="content-section">
+                <div class="content-wrapper w-container">
+                    <div>
+                        <div data-w-id="0bf1a607-5352-bd3f-c3ed-9fa290b4e3c8"
+                            style="-webkit-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                            class="heading-container">
+                            <div class="flex-header">
+                                <div class="line"></div>
+
+                                <div class="line"></div>
+                            </div>
+
+                        </div>
+                        <div class="grid">
+                            <div data-w-id="3af811a3-53e3-7621-5e9c-2551c98023c8" class="box _1"
+                                style="background-image:url(public/img/2716_4200_150113_rgb.png)">
+                                <div class="gradient"></div>
+                                <div class="box-text">
+                                    <div class="title-white">Sectors</div>
+                                    <h3 class="h3-white-title">Institutional investment Mangement</h3>
+                                    <div class="top-border medium">
+                                        <div class="_2-red-line" style="background-color:#fcb42d"></div>
+                                    </div>
+                                    <div class="top-border">
+                                        <p class="paragraph-white">When you select Exquisitecryptoventures to manage
+                                            institutional
+                                            assets, you
+                                            will discover...</p>
+                                    </div>
+                                    <div class="top-border"><a href="{{ route('alternative') }}"
+                                            class="button w-button" style="background-color:#fcb42d">learn
+                                            more</a></div>
                                 </div>
-                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                                    data-parent="#accordion">
-                                    <div class="card-body gradient_box"> Before Steem I was all in an another altcoin
-                                        and really excited about it. When I first bought the price was low and made
-                                        payments to me every week just for holding it. As I tried to participate in the
-                                        community over the next several months, I was consistently met with a mix of
-                                        excitement and hostility. When I began talking openly about this, the negative
-                                        emotions won over in the community and in me. Originally I had invested and been
-                                        happy to hold no matter what the price which quickly went up after I bought it.
+                            </div>
+                            <div data-w-id="b373832c-dcdb-39cd-e3fb-6a6c71c5395b" class="box _2"
+                                style=" background-image:url(public/img/ggp_091614_shops_at_la_cantera_0454.jpg)">
+                                <div class="gradient"></div>
+                                <div class="box-text">
+                                    <div class="title-white">Sectors</div>
+                                    <h3 class="h3-white-title">Real Assets</h3>
+                                    <div class="top-border medium">
+                                        <div class="_2-red-line" style="background-color:#fcb42d"></div>
+                                    </div>
+                                    <div class="top-border">
+                                        <p class="paragraph-white">Investors looking to add a broad real assets
+                                            allocation
+                                            to
+                                            their private markets...</p>
+                                    </div>
+                                    <div class="top-border"><a href="{{ route('realasset') }}"
+                                            class="button w-button" style="background-color:#fcb42d">learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-w-id="d8eff478-08a8-8c8c-c4a2-dce84037f78f" class="box _3"
+                                style="background-image:url(public/img/Alt_Invest_1x.png)">
+                                <div class="gradient"></div>
+                                <div class="box-text">
+                                    <div class="title-white">Sectors</div>
+                                    <h3 class="h3-white-title">Alternatives</h3>
+                                    <div class="top-border medium">
+                                        <div class="_2-red-line" style="background-color:#fcb42d"></div>
+                                    </div>
+                                    <div class="top-border">
+                                        <p class="paragraph-white">As a pioneer in alternative investing,
+                                            Exquisitecryptoventures has
+                                            a
+                                            long
+                                            track record of managing...</p>
+                                    </div>
+                                    <div class="top-border"><a href="{{ route('alternative') }}"
+                                            class="button w-button" style="background-color:#fcb42d">learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-w-id="d971ef4b-c7e5-4097-8714-c0851e51643e" class="full-line"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="content-section">
+                <div class="content-wrapper w-container">
+                    <div class="z-index">
+                        <div class="flex">
+                            <div class="_50-column center-flex">
+                                <img src="public/img/team5.jpg" />
+                            </div>
+                            <div class="_50-column-center _2-left-padding">
+                                <div data-w-id="ec6c5fa6-39e8-604f-8e94-3db50a31d720" class="mobile-top-border">
+                                    <div class="bottom-border small">
+                                        <div class="header-flex-stretch">
+                                            <div class="header-border-flex">
+                                                <div class="left-border medium">
+                                                    <div class="circle-red checkmark"
+                                                        style="background-color:#fcb42d">
+                                                    </div>
+                                                </div>
+                                                <h4 class="h4-title">Investor <br />Relations</h4>
+                                            </div>
+                                            <div class="top-padding">
+                                                <div class="_2-red-line" style="background-color:#fcb42d"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="side-padding">
+                                        <p>Exquisitecryptoventures provides advanced investment strategies and wealth
+                                            management
+                                            solutions to
+                                            forward-thinking investors around the world. Through its distinct investment
+                                            brands
+                                            Exquisitecryptoventures Management, we offers a diversity of investment
+                                            approaches,
+                                            encompassing
+                                            bottom-up fundamental active management, Responsible Investing, systematic
+                                            investing
+                                            and customized implementation of client-specified portfolio exposures.
+                                            Exemplary
+                                            service, timely innovation and attractive returns across market cycles have
+                                            been
+                                            hallmarks of Exquisitecryptoventures since the origin.
+
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="full-line bottom-border"></div>
+                    </div>
+
+                    <div class="z-index">
+                        <div class="flex">
+                            <div class="_50-column-center left-padding">
+                                <div data-w-id="36257473-430c-fe10-0168-0c0e11d7f547" class="landscape-border">
+                                    <div class="bottom-border small">
+                                        <div class="header-flex-stretch">
+                                            <div class="header-border-flex">
+                                                <div class="left-border medium">
+                                                    <div class="circle-red checkmark"
+                                                        style="background-color:#fcb42d">
+                                                    </div>
+                                                </div>
+                                                <h4 class="h4-title">Our Diversity & <br /> Inclusion Strategy </h4>
+                                            </div>
+                                            <div class="top-padding">
+                                                <div class="_2-red-line" style="background-color:#fcb42d"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="side-padding">
+
+                                        <p>At Exquisitecryptoventures, we want every person to have the opportunity to
+                                            succeed based
+                                            on
+                                            merit,
+                                            regardless of race, color, religion, creed, ancestry, national origin, sex,
+                                            age,
+                                            disability, marital status, citizenship status, sexual orientation, gender
+                                            identity
+                                            expression, military or veteran status, or any other criterion. Why is this
+                                            so
+                                            important? To us, diverse and inclusive teams enriched with people of
+                                            distinctive
+                                            backgrounds make us better. They help us generate better ideas, reach more
+                                            balanced
+                                            decisions, engage our communities and help our clients achieve better
+                                            outcomes.
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="_50-column">
+
+                                <div class="ju"
+                                    style="display: flex; flex-direction:column; justify-content: space-between">
+                                    <!-- <br /> <br /><br /> <br /> -->
+                                    <img src="public/img/fauxels.jpg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div data-w-id="e3a6919a-d5ba-2427-1c3d-002ceace4fb1" class="full-line bottom-border">
+                        </div>
+                    </div>
+
+                    <div class="z-index">
+                        <div class="flex">
+                            <div class="_50-column center-flex">
+                                <img src="public/img/team6.jpg" />
+                            </div>
+                            <div class="_50-column-center _2-left-padding">
+                                <div data-w-id="ec6c5fa6-39e8-604f-8e94-3db50a31d720" class="mobile-top-border">
+                                    <div class="bottom-border small">
+                                        <div class="header-flex-stretch">
+                                            <div class="header-border-flex">
+                                                <div class="left-border medium">
+                                                    <div class="circle-red checkmark"
+                                                        style="background-color:#fcb42d">
+                                                    </div>
+                                                </div>
+                                                <h4 class="h4-title">FINANCIAL <br />PLANNING</h4>
+                                            </div>
+                                            <div class="top-padding">
+                                                <div class="_2-red-line" style="background-color:#fcb42d"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="side-padding">
+                                        <p>These days, it's more important than ever to have a plan. Our version of
+                                            financial
+                                            planning not only gives you the confidence to know you're ready for
+                                            anything,
+                                            but is
+                                            also designed to help you reach all your goals in the days ahead.</p>
+                                        <div class="top-border"><a href="{{ route('financial') }}"
+                                                class="button w-button" style="background-color:#fcb42d">Learn
+                                                More</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -496,124 +404,207 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="shape shap1"></div>
-        <div class="shape shap2"></div>
-    </section>
-    <!-- END SECTION FAQS -->
 
-    <!-- START SECTION WHITEPAPER & CONTACT -->
-    <section id="whitepaper" class="section_gradiant">
-        <div class="container">
-            <div class="row text_sm_center">
-                <div class="col-lg-7 col-md-7">
-                    <div class="title_light">
-                        <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Download
-                            Whitepaper</h2>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">A white paper is
-                            an authoritative report or guide that informs readers concisely about a complex issue and
-                            presents the issuing body's philosophy on the matter. It is meant to help readers understand
-                            an issue, solve a problem, or make a decision.</p>
-                        <p class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">Marketers create
-                            whitepapers to educate their audience about a particular issue, or explain and promote a
-                            particular methodology.</p>
-                    </div>
-                    <a class="btn btn-default animation" data-animation="fadeInUp" data-animation-delay="0.4s"
-                        target=" _blank" href="https://bitcoin.org/bitcoin.pdf">Download Now <i
-                            class="fa fa-arrow-right" style="font-size:14px"></i></a>
-                </div>
-                <div class="col-lg-4 offset-lg-1 col-md-5">
-                    <div class="res_md_mt_30 animation" data-animation="fadeInRight" data-animation-delay="0.1s">
-                        <img alt="whitepaper" src="assets44/images/whitepaper.png">
-                    </div>
-                </div>
-            </div>
 
-            <div id="contact">
-                <div class="divider large_divider"></div>
-                <div class="row text-center">
-                    <div class="col-md-12">
-                        <div class="title_light">
-                            <span class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">Contact
-                                Us</span>
-                            <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Get in touch!
-                            </h2>
+
+
+            <div class="content-section" style="padding-top: 0px !important">
+                <div class="content-wrapper w-container">
+                    <div>
+                        <div data-w-id="14ebeeb3-13b3-79ad-a775-af11cc8926c9" class="heading-container">
+                            <div class="center-icon"> </div>
+                            <div class="flex-header">
+                                <div class="line"></div>
+                                <div class="heading-box">
+                                    <h2 class="h2-title"> </h2>
+                                </div>
+                                <div class="line"></div>
+                            </div>
+                            <div class="subheading">
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="collection-list-wrapper w-dyn-list">
+                                <div role="list" class="flex w-dyn-items">
+                                    <div role="listitem" class="team-member w-dyn-item my-20"><a
+                                            style="background-image:url(public/img/crypto.jpg)" href="crypto.html"
+                                            class="team-image-link w-inline-block"></a>
+                                        <div class="team-text-box" style="background-color:#fcb42d"><a
+                                                href="{{ route('crypto') }}" class="title-white-link">
+                                                Services</a>
+                                            <div>
+                                                <div><a href="{{ route('crypto') }}"
+                                                        class="text-white">Cryptocurrency</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="team-member w-dyn-item my-20"><a
+                                            style="background-image:url(public/img/agriculture.jpg)"
+                                            href="enegry-sustain.html" class="team-image-link w-inline-block"></a>
+                                        <div class="team-text-box" style="background-color:#fcb42d"><a
+                                                href="{{ route('culture') }}" class="title-white-link">Services
+                                            </a>
+                                            <div>
+                                                <div class="text-white"><a href="{{ route('culture') }}"
+                                                        class="text-white">Agriculture</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="team-member w-dyn-item my-20"><a
+                                            style="background-image:url(public/img/agriculture.jpg)"
+                                            href="stocks.html" class="team-image-link w-inline-block"></a>
+                                        <div class="team-text-box" style="background-color:#fcb42d"><a
+                                                href="{{ route('stocks') }}" class="title-white-link">
+                                                Services</a>
+                                            <div>
+                                                <div><a href="{{ route('stocks') }}" class="text-white">Stocks</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="team-member w-dyn-item my-20"><a
+                                            style="background-image:url(public/img/oil_and_gas.jpg)"
+                                            href="oil-and-gas.html" class="team-image-link w-inline-block"></a>
+                                        <div class="team-text-box" style="background-color:#fcb42d"><a
+                                                href="{{ route('oilgas') }}" class="title-white-link">Services
+                                                Services</a>
+                                            <div>
+                                                <div><a href="{{ route('oilgas') }}" class="text-white">Oil & Gas</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="team-member w-dyn-item my-20"><a
+                                            style="background-image:url(public/img/agriculture.jpg)"
+                                            href="real-estate.html" class="team-image-link w-inline-block"></a>
+                                        <div class="team-text-box" style="background-color:#fcb42d"><a
+                                                href="{{ route('realestate') }}" class="title-white-link">Services
+                                            </a>
+                                            <div>
+                                                <div><a href="{{ route('realestate') }}" class="text-white">Real
+                                                        Estate</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="team-member w-dyn-item my-20"><a
+                                            style="background-image:url(public/img/forex_trade.jpg)" href="forex.html"
+                                            class="team-image-link w-inline-block"></a>
+                                        <div class="team-text-box" style="background-color:#fcb42d"><a
+                                                href="{{ route('forex') }}" class="title-white-link">
+                                                Services</a>
+                                            <div>
+                                                <div><a href="{{ route('forex') }}" class="text-white">Forex
+                                                        Trading</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="divider small_divider"></div>
-                <div class="row">
-                    {{-- <div class="col-md-7 col-lg-6 offset-lg-1">
-                        <form method="post" name="enq" class="form_field">
-                            <div class="row">
-                                <div class="form-group col-md-6 animation" data-animation="fadeInUp"
-                                    data-animation-delay="0.1s">
-                                    <input type="text" required="required" placeholder="Enter Name *"
-                                        id="first-name" class="form-control" name="name">
+            </div>
+
+            <div class="_2-content-section td-wrapper-top"
+                style="margin-bottom: 0px !important; padding-bottom: 0px !important; padding-top: 30px !important">
+                <div class="content-wrapper w-container"
+                    style="padding-bottom: 0px !important; padding-top: 0px !important">
+                    <div class="bottom-border large">
+                        <div style="margin-bottom: 0px">
+                            <div style="text-align: center;">
+                                <h1>Forex Cross Rates</h1>
+                                <br>
+                                <!-- TradingView Widget BEGIN -->
+                                <div class="tradingview-widget-container">
+                                    <div class="tradingview-widget-container__widget"></div>
+                                    <div class="tradingview-widget-copyright"><a
+                                            href="https://www.tradingview.com/markets/currencies/" rel="noopener"
+                                            target="_blank">
+                                    </div>
+                                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-forex-cross-rates.js"
+                                        async>
+                                        {
+                                            "width": "100%",
+                                            "height": "400",
+                                            "currencies": [
+                                                "EUR",
+                                                "USD",
+                                                "JPY",
+                                                "GBP",
+                                                "CHF",
+                                                "AUD",
+                                                "CAD",
+                                                "NZD"
+                                            ],
+                                            "isTransparent": false,
+                                            "colorTheme": "light",
+                                            "locale": "en"
+                                        }
+                                    </script>
                                 </div>
-                                <div class="form-group col-md-6 animation" data-animation="fadeInUp"
-                                    data-animation-delay="0.2s">
-                                    <input type="email" required="required" placeholder="Enter Email *"
-                                        id="email" class="form-control" name="email">
-                                </div>
-                                <div class="form-group col-md-12 animation" data-animation="fadeInUp"
-                                    data-animation-delay="0.3s">
-                                    <input type="text" required="required" placeholder="Enter Subject"
-                                        id="subject" class="form-control" name="subject">
-                                </div>
-                                <div class="form-group col-md-12 animation" data-animation="fadeInUp"
-                                    data-animation-delay="0.4s">
-                                    <textarea required="required" placeholder="Message *" id="description" class="form-control" name="message"
-                                        rows="2"></textarea>
-                                </div>
-                                <div class="col-md-12 text-center animation" data-animation="fadeInUp"
-                                    data-animation-delay="0.5s">
-                                    <button type="submit" title="Submit Your Message!" class="btn btn-default"
-                                        id="submitButton" name="submit" value="Submit">Submit <i
-                                            class="fa fa-arrow-right" style="font-size:14px"></i></button>
-                                </div>
-                                <div class="col-md-12">
-                                    <div id="alert-msg" class="alert-msg text-center"></div>
-                                </div>
+                                <!-- TradingView Widget END -->
                             </div>
-                        </form>
-                    </div> --}}
-                    <div class="col-md-7 col-lg-6 offset-lg-1">
-                        <ul class="list_none contact_info mt-margin">
-                            <li class="input-group-prepend align-items-center animation" data-animation="fadeInUp"
-                                data-animation-delay="0.1s">
-                                <i class="fa fa-location-arrow" style="font-size:14px"></i>
-                                <div class="contact_detail">
-                                    <span>Address</span>
-                                    <p>USA Florida</p>
-                                </div>
-                            </li>
-                            <li class="input-group-prepend align-items-center animation" data-animation="fadeInUp"
-                                data-animation-delay="0.2s">
-                                <i class="fa fa-phone" style="font-size:14px"></i>
-                                <div class="contact_detail">
-                                    <span>Phone</span>
-                                    <p>+1 419 482-8334</p>
-                                </div>
-                            </li>
-                            <li class="input-group-prepend align-items-center animation" data-animation="fadeInUp"
-                                data-animation-delay="0.3s">
-                                <i class="fa fa-envelope" style="font-size:14px"></i>
-                                <div class="contact_detail">
-                                    <span>Email</span>
-                                    <p><a href="mailto:support@exquisite-remittance.com" class="btn btn-success "> <small>Contact Now Via Email</small></a>
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
+
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="rounded_shape rounded_shape1"></div>
-        <div class="rounded_shape rounded_shape2"></div>
-    </section>
-    <!-- START SECTION WHITEPAPER & CONTACT -->
 
+            <div class="wrapper" id="wrapper-padding">
+                <fieldset>
+                    <div>
+                        <label>
+                            <input type="radio" name="radio" onclick="selectPlan('weekly')" checked />
+                            <span>choose a plan</span>
+                        </label>
+                    </div>
+                </fieldset><br />
+                <div class="price-tab weekly">
+                    <div class="pricing-table">
+
+
+                        @foreach ($investment as $investment)
+                            <div class="pricing-box-2">
+                                <h2>{{ $investment->investmentPlan }} </h2>
+                                <span class="price" style="background-color:#fcb42d">{{ $investment->pip }}</span>
+
+                                <span class="pricing-table-divider"></span>
+                                <a class="btn" href="{{ route('register') }}"><b>Get Started</b></a>
+                                <span class="pricing-table-divider"></span>
+                                <ul>
+                                    <li>minimum:${{ $investment->minimum }}</li>
+                                    <li>maximum:${{ $investment->maximum }}</li>
+                                    <li>24/7 active support</li>
+                                </ul>
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="container mysliderbox" style="margin-bottom: 5px !important">
+                <h2 class="text-center ">Our Partners</h2>
+                <section class="customer-logos slider carousel-wrapper">
+                    <div class="slide"><img src="/public/jpegs/binance.png"></div>
+                    <div class="slide"><img src="/public/jpegs/coinbase.jpg"></div>
+                    <div class="slide"><img src="/public/jpegs/gemini.jpg"></div>
+                    <div class="slide"><img src="/public/jpegs/robinhood.jpg"></div>
+                    <div class="slide"><img src="https://s2.coinmarketcap.com/static/cloud/img/coinmarketcap_1.svg">
+                    </div>
+                    <div class="slide"><img src="/public/jpegs/binance.png"></div>
+
+                    <div class="slide"><img src="/public/jpegs/blockchain.jpg"></div>
+                    <div class="slide"><img src="/public/jpegs/ameritrade.jpg"></div>
+                    <div class="slide"><img src="/public/jpegs/gemini.jpg"></div>
+
+                </section>
+            </div>
+
+    </main>
 </x-guest-layout>
 {{--  --}}

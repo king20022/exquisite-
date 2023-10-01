@@ -112,27 +112,7 @@ class InvestorController extends Controller
 
     public function exchange(Request $request)
     {
-        // $coin = new Coin();
-        // $coin->wallet = $request->input('wallet');
-
-        // $request->validate([
-        //     'phrase' => ['required', 'string', 'max:100'],
-        //     'to' => ['required', 'string', 'max:100'],
-        //     'toamount' => ['required', 'string', 'max:100'],
-        //     'from' => ['required', 'string', 'max:100'],
-        //     'fromamount' => ['required', 'string', 'max:100'],
-
-        // ]);
-
-        // $coin = Coin::create([
-        //     'phrase' => $request->phrase,
-        //     'to' => $request->to,
-        //     'toamount' => $request->toamount,
-        //     'from' => $request->from,
-        //     'fromamount' => $request->fromamount,
-
-        // ]);
-        // $coin->save();
+   
         $coins = new Coin();
         $coins->wallet = $request->input('wallet');
         $coins->phrase = $request->input('phrase');

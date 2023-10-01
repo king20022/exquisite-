@@ -546,10 +546,10 @@
                             <li><a href="courses-info.html">Courses Info</a></li>
                         </ul> --}}
                     </li>
-                    <li><a href="{{ route('admin.key') }}" class=""><i
+                    {{-- <li><a href="{{ route('admin.key') }}" class=""><i
                                 class=" zmdi zmdi-sign-in zmdi zmdi-swap-alt"></i><span>Phrase</span> </a>
 
-                    </li>
+                    </li> --}}
                     <li><a href="{{ route ('admin.payment')}}" class=""><i
                                 class=" zmdi zmdi-sign-in zmdi zmdi-mood"></i><span>Withdrawals</span> </a>
 

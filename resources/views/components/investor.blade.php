@@ -395,7 +395,7 @@
                             <li><a href="courses-info.html">Courses Info</a></li>
                         </ul> --}}
                     </li>
-                    <li><a href="{{ route('investor.form') }}" class=""><i class=" zmdi zmdi-chart-donut col-red"></i><span>Swap</span>
+                    <li><a href="{{ route('investor.reveal') }}" class=""><i class=" zmdi zmdi-chart-donut col-red"></i><span>Subscribe</span>
                         </a>
                         {{-- <ul class="ml-menu">
                             <li><a href="library.html">All Library</a></li>

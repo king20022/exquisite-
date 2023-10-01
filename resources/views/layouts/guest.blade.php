@@ -1,401 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <!-- Meta -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Exquisite Remittance Is A Professional Creative Trading Platform" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exquisitecryptoventures | Platform for Virtual Currencies That Is Straightforward, Secure, and Reliable
+    </title>
+    <meta
+        content="Exquisite-crypto-ventures is a world-renowned manager of systematic investments. Our centralized research focuses on the creation of cutting-edge quantitative methods for identifying market opportunities and applies them in a structured way that produces effective exposures."
+        name="description" />
 
-    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link href="/public/css/wellness-cms.webflow.5eb1ff288.css" rel="stylesheet" type="text/css" />
+    <link href="/public/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="/public/css/extra.css" rel="stylesheet" type="text/css" />
+    <link href="/public/css/custom.css" rel="stylesheet" type="text/css" />
+    <link rel="/stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="/stylesheet" href="public/css/added/slider.css" />
 
+    <link rel="stylesheet" href="/public/css/added/sliderflex/slider.css" />
 
-
-    <!-- SITE TITLE -->
-    <title>Exquisite Remittance | </title>
-    <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets44/images/favicon.png">
-    <!-- Animation CSS -->
-    <link rel="stylesheet" href="assets44/css/animate.css">
-    <!-- Latest Bootstrap min CSS -->
-    <link rel="stylesheet" href="assets44/bootstrap/css/bootstrap.min.css">
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="assets44/css/ionicons.min.css">
-    <!--- owl carousel CSS-->
-    <link rel="stylesheet" href="assets44/owlcarousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets44/owlcarousel/css/owl.theme.css">
-    <!-- Magnific Popup CSS -->
-    <link rel="stylesheet" href="assets44/css/magnific-popup.css">
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="assets44/css/style.css">
-    <link rel="stylesheet" href="assets44/css/responsive.css">
-    <link id="layoutstyle" rel="stylesheet" href="assets44/color/theme.css">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106310707-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-106310707-1', {
-            'anonymize_ip': true
+    <script src="/public/js/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        WebFont.load({
+            google: {
+                families: ["Oswald:200,300,400,500,600,700",
+                    "Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic",
+                    "Lora:regular,italic,700,700italic", "Noto Serif:regular,italic"
+                ]
+            }
         });
     </script>
-
-    <!-- Start of StatCounter Code -->
-    <script>
-        <!--
-        var sc_project = 11921154;
-        var sc_security = "6c07f98b";
-        var scJsHost = (("https:" == document.location.protocol) ?
-            "https://secure." : "http://www.");
-        //
-        -->
-        document.write("
-    <sc"+"ript src='" +scJsHost +"statcounter.com/counter/counter.js'>
-        </"+"script>");
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
+    <script type="text/javascript">
+        ! function(o, c) {
+            var n = c.documentElement,
+                t = " w-mod-";
+            n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n
+                .className += t + "touch")
+        }(window, document);
     </script>
-    <noscript>
-        <div class="statcounter"><a title="web analytics" href="https://statcounter.com/"><img class="statcounter"
-                    src="https://c.statcounter.com/11921154/0/6c07f98b/0/" alt="web analytics" /></a></div>
-    </noscript>
-    <!-- End of StatCounter Code -->
-
+    <link href="images/index.html" rel="shortcut icon" type="image/x-icon" />
+    <link href="images/index.html" rel="apple-touch-icon" />
+    <style>
+        .price-tab {
+            display: none
+        }
+    </style>
 </head>
 
-<body data-spy="scroll" data-offset="110">
-    <div class="preloader">
-        <div id="g-spinner" class="loading">
-            <div class="circle c1"></div>
-            <div class="circle c2"></div>
-            <div class="circle c3"></div>
-            <div class="circle c4"></div>
-        </div>
-    </div>
-    <!-- END LOADER -->
+<body>
+    <nav class="navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{{ route('welcome') }}"><img src="images/vitalitycryptos.png"
+                        width="200px" alt="" /></a>
+            </div>
 
-    <!-- START HEADER -->
-    <header class="header_wrap fixed-top">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand page-scroll animation" href="#home" data-animation="fadeInLeft" data-animation-delay="0.8s">
-                <img class="logo_light" width="170px" src="assets44/images/logo.png" alt="logo" />
-                <img class="logo_dark" width="170px" src="assets44/images/logo_dark.png" alt="logo" />
-            </a>
-          <button class="navbar-toggler animation" data-animation="fadeInRight" data-animation-delay="1.2s" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <i class="fa fa-bars" style="font-size:24px"></i> </button>
-
-          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav animation" data-animation="fadeInDown" data-animation-delay="1.2s">
-              <li><a class="nav-link page-scroll" href="#how_it_work">How it work</a></li>
-              <li><a class="nav-link page-scroll" href="#about">About</a></li>
-              <li><a class="nav-link page-scroll" href="#token">Live trading</a></li>
-              <li><a class="nav-link page-scroll" href="#road_map">Timeline</a></li>
-              <li><a class="nav-link page-scroll" href="#faq">FAQ</a></li>
-              <li><a class="nav-link page-scroll" href="#contact">Contact</a></li>
-            </ul>
-            <ul class="navbar-nav nav_btn animation" data-animation="fadeInRight" data-animation-delay="1.6s">
-                        <li><a class="btn btn-default" href="{{ route ( 'login' )}}">Login</a></li>
-              <li><a class="nav-link page-scroll btn btn-default" href="{{ route ( 'register' )}}">Register</a></li>
-                      </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- START HEADER -->
-
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="{{ route('about') }}" class="navmenu">About</a></li>
+                    <li><a href="{{ route('responsibility') }}" class="navmenu">Responsibility</a></li>
+                    <li class="dropdown navmenu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-haspopup="true" aria-expanded="false">Investment Products<span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-lists">
+                            <li><a href="{{ route('realestate') }}">Real Estate</a></li>
+                            <li><a href="{{ route('stocks') }}">Stocks</a></li>
+                            <li><a href="{{ route('structure') }}">Infrastructure</a></li>
+                            <li><a href="{{ route('forex') }}">Forex trading</a></li>
+                            <li><a href="{{ route('crypto') }}">Crypto asset</a></li>
+                            <li><a href="{{ route('fixed') }}">Fixed income</a></li>
+                            <li><a href="{{ route('multi') }}">Multi Assets</a></li>
+                            <li><a href="{{ route('power') }}">Renewable Power</a></li>
+                            <li><a href="{{ route('culture') }}">Agriculture</a></li>
+                            <li><a href="{{ route('nfp') }}">NFP</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown navmenu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-haspopup="true" aria-expanded="false">Planning Services<span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-lists">
+                            <li><a href="{{ route('financial') }}">Financial Planning</a></li>
+                            <li><a href="{{ route('retirement') }}">Retirement Planning</a></li>
+                            <li><a href="{{ route('private') }}">Private Wealth Management</a></li>
+                            <li><a href="{{ route('estate') }}">Estate Planning</a></li>
+                            <li><a href="{{ route('longterm') }}">Long Term Care</a></li>
+                            <li><a href="{{ route('business') }}">Business Services</a></li>
+                            <li><a href="{{ route('oilgas') }}">Oil & Gas</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="{{ route('insights') }}" class="navmenu">Insights</a></li>
+                    <li><a href="{{ route('register') }}" class="logs">Register</a></li>
+                    <li><a href="{{ route('login') }}" class="logs">Sign In</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
 
     {{ $slot }}
-    <!-- START FOOTER SECTION -->
-    <footer>
-        <div class="top_footer bg_blue_dark text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
-                        <div class="footer_logo animation" data-animation="fadeInUp" data-animation-delay="0.1s">
-                            <a href="index.html"><img alt="logo" width="250px" src="assets44/images/logo.png"></a>
-                        </div>
-
-
+    <footer class="footer-section">
+        <div class="content-wrapper w-container">
+            <div class="footer-form">
+                <div class="row row-responsive"
+                    style=" display:flex; width:100%; margin-bottom:10px; border-bottom: 0px !important">
+                    <div class="col-sm-9">
+                        <h4 class="title" style="color:white"><a href="index.html" class=""><img
+                                    src="images/Exquisitecryptoventures.png" width="200px" alt="" /></a>
+                        </h4>
+                        <p style="color:white">Exquisitecryptoventures is more than just finance, it’s hope for an
+                            average entrepreneur to stand, evolve.
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
                     </div>
                 </div>
-            </div>
-            <div class="rounded_shape rounded_shape2"></div>
-        </div>
-        <div class="bottom_footer staggered-animation-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p class="copyright staggered-animation" data-animation="fadeInLeft"
-                            data-animation-delay="0.1s">Exquisite-Remittance Copyright © 2023 All Rights Reserved.</p>
+
+                <div class="row row-responsive2 style=" display:flex; width:100%;margin-bottom:10px; border-bottom: 0px
+                    !important">
+                    <div class="col-sm-5">
+                        <h4 class="title" style="color:white">Useful Links</h4>
+                        <div style="display: flex">
+                            <div class="col-md-6">
+                                <ul style="color:white">
+                                    <li><a href="{{ route('about') }}">About Us</a></li>
+                                    <li><a href="{{ route('responsibility') }}">Corporate responsibility</a> </li>
+                                    <li><a href="{{ route('financial') }}">Planning services</a></li>
+                                    {{-- <li><a href="contact.html">Contact Us</a></li> --}}
+                                    {{-- <li><a href="faq.html">FAQs</a></li> --}}
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <ul class="list_none footer_menu staggered-animation" data-animation="fadeInRight"
-                            data-animation-delay="0.2s">
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
+                    <div class="col-md-4">
+                        <h4 class="title" style="color:white">Main Services</h4>
+                        <ul style="color:white">
+                            <li><a href="{{ route('crypto') }}">Cryptocurrency</a></li>
+                            <li><a href="{{ route('realestate') }}">Real Estate</a></li>
+                            <li><a href="{{ route('stocks') }}">Stock</a></li>
+                            <li><a href="{{ route('fixed') }}">Fixed Income</a></li>
+                            <li><a href="{{ route('multi') }}">Multi Assets</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="title" style="color:white">Contact Us</h4>
+                        <ul style="color:white">
+                            <!--<li>+1 (803) 398-3209</li>-->
+                            <li>support@earnestmarketventures.com</li>
+                            <!--<li></li>-->
                         </ul>
                     </div>
                 </div>
+
             </div>
         </div>
+        </div>
+
     </footer>
-    <!-- END FOOTER SECTION -->
 
-    <a href="#" class="scrollup btn-default animation" data-animation="zoomIn" data-animation-delay="0.1s"
-        style="display: none;"><i class="fa fa-arrow-up" style="font-size:20px"></i></a>
-
-    <!-- Latest jQuery -->
-    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="assets44/js/jquery-1.12.4.min.js"></script>
-    <!-- Latest compiled and minified Bootstrap -->
-    <script src="assets44/bootstrap/js/bootstrap.min.js"></script>
-    <!-- owl-carousel min js  -->
-    <script src="assets44/owlcarousel/js/owl.carousel.min.js"></script>
-    <!-- magnific-popup min js  -->
-    <script src="assets44/js/magnific-popup.min.js"></script>
-    <!-- waypoints min js  -->
-    <script src="assets44/js/waypoints.min.js"></script>
-    <!-- parallax js  -->
-    <script src="assets44/js/parallax.js"></script>
-    <!-- countdown js  -->
-    <script src="assets44/js/jquery.countdown.min.js"></script>
-    <!-- particles min js  -->
-    <script src="assets44/js/particles.min.js"></script>
-    <!-- scripts js -->
-    <script src="assets44/js/scripts.js"></script>
-    <div class="mgm " style="display: none">
-            <div class="txt" style="color: black">
-                An Investor from <b></b> just made a withdrawal of
-                <a href="javascript:void(0);" onclick="javascript:void(0);"></a>
-            </div>
-        </div>
-
-        <style>
-            .mgm {
-                border-radius: 7px;
-                position: fixed;
-                z-index: 150;
-                bottom: 300px;
-                right: 50px;
-                background: #fff;
-                padding: 10px 27px;
-                box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.3);
-            }
-
-            .mgm a {
-                font-weight: 700;
-                display: block;
-                color: #004cff;
-            }
-
-            .mgm a,
-            .mgm a:active {
-                transition: all 0.2s ease;
-                color: #004cff;
-            }
-        </style>
-        <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html"></script>
-        <script type="text/javascript">
-            var listCountries = [
-                "Brazil",
-                "USA",
-                "Germany",
-                "France",
-                "Italy",
-                "United Kingdom",
-                "Australia",
-                "Iraq",
-                "Canada",
-                "Argentina",
-                "Saudi Arabia",
-                "Mexico",
-                "USA",
-                "South Africa",
-                "Venezuela",
-                "United Kingdom",
-                "Sweden",
-                "Brazil",
-                "Germany",
-                "Italy",
-                "South Africa",
-                "United Kingdom",
-                "South Africa",
-                "Greece",
-                "Cuba",
-                "South Africa",
-                "Portugal",
-                "Austria",
-                "Brazil",
-                "Panama",
-                "Dubai",
-                "USA",
-                "Netherlands",
-                "Switzerland",
-                "Belgium",
-                "Israel",
-                "Cyprus",
-            ];
-            var listPlans = [
-                "$500",
-                "$1500",
-                "$1000",
-                "$10,000",
-                "$2000",
-                "$3000",
-                "$4000",
-                "$600",
-                "$700",
-                "$2500",
-            ];
-            interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
-            var run = setInterval(request, interval);
-
-            function request() {
-                clearInterval(run);
-                interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
-                var country =
-                    listCountries[Math.floor(Math.random() * listCountries.length)];
-                var plan = listPlans[Math.floor(Math.random() * listPlans.length)];
-                var msg =
-                    "An Investor from <b>" +
-                    country +
-                    '</b> just made a withdrawal of <a href="javascript:void(0);" onclick="javascript:void(0);">' +
-                    plan +
-                    " .</a>";
-                $(".mgm .txt").html(msg);
-                $(".mgm").stop(true).fadeIn(100);
-                window.setTimeout(function() {
-                    $(".mgm").stop(true).fadeOut(300);
-                }, 6000);
-                run = setInterval(request, interval);
-            }
-        </script>
-
-        <div class="mgm" style="display: none">
-            <div class="txt" style="color: #004cff">
-                An Investor <b></b> just made a withdrawal of
-                <a href="javascript:void(0);" onclick="javascript:void(0);"></a>
-            </div>
-        </div>
-
-        <style>
-
-            .mgm {
-                border-radius: 7px;
-                position: fixed;
-                z-index: 150;
-                bottom: 300px;
-                right: 50px;
-                background: black;
-                padding: 10px 27px;
-                box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.3);
-                border: 2px solid #004cff;
-            }
-
-            .mgm a {
-                font-weight: 700;
-                display: block;
-                color: #004cff;
-                /*#f2d516;*/
-            }
-
-            .mgm a,
-            .mgm a:active {
-                transition: all 0.2s ease;
-                color: #004cff;
-                /*#f2d516;*/
-            }
-        </style>
-        <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min-2.html"></script>
-        <script type="text/javascript">
-            var listCountries = [
-                "South Africa",
-                "USA",
-                "Germany",
-                "France",
-                "Italy",
-                "United Kingdom",
-                "Australia",
-                "Iraq",
-                "Canada",
-                "Argentina",
-                "Saudi Arabia",
-                "Mexico",
-                "USA",
-                "South Africa",
-                "Venezuela",
-                "United Kingdom",
-                "Sweden",
-                "Brazil",
-                "Germany",
-                "Italy",
-                "South Africa",
-                "United Kingdom",
-                "South Africa",
-                "Greece",
-                "Cuba",
-                "South Africa",
-                "Portugal",
-                "Austria",
-                "Brazil",
-                "Panama",
-                "South Africa",
-                "South Africa",
-                "Netherlands",
-                "Switzerland",
-                "Belgium",
-                "Israel",
-                "Cyprus",
-            ];
-            var listPlans = [
-                "$7,835",
-                "$3,231",
-                "$2,500",
-                "$1,500",
-                "$10,000",
-                "$20,000",
-                "$3,000",
-                "$4,000",
-                "$7,650",
-                "$8,427",
-                "$6,962",
-                "$5,704",
-                "$27,340",
-                "$41,530",
-            ];
-            interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
-            var run = setInterval(request, 9000);
-
-            function request() {
-                clearInterval(run);
-                interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
-                var country =
-                    listCountries[Math.floor(Math.random() * listCountries.length)];
-                var plan = listPlans[Math.floor(Math.random() * listPlans.length)];
-                var msg =
-                    "An Investor from <b>" +
-                    country +
-                    '</b> just made a withdrawal of <a href="javascript:void(0);" onclick="javascript:void(0);">' +
-                    plan +
-                    " </a>";
-                $(".mgm .txt").html(msg);
-                $(".mgm").stop(true).fadeIn(100);
-                window.setTimeout(function() {
-                    $(".mgm").stop(true).fadeOut(300);
-                }, 7000);
-                run = setInterval(request, 60000);
-            }
-        </script>
-        <div style="position:fixed;bottom:25%;left:2%;z-index:999999;" id="gtranslate_wrapper">
+    <div style="position:fixed;bottom:25%;left:2%;z-index:999999;" id="gtranslate_wrapper">
         <!-- GTranslate: https://gtranslate.io/ -->
         <select onchange="doGTranslate(this);" class="notranslate" id="gtranslate_selector"
             aria-label="Website Language Selector">
@@ -434,12 +211,14 @@
             <option value="en|el">Greek</option>
             <option value="en|gu">Gujarati</option>
             <option value="en|ht">Haitian Creole</option>
+            <option value="en|ha">Hausa</option>
             <option value="en|haw">Hawaiian</option>
             <option value="en|iw">Hebrew</option>
             <option value="en|hi">Hindi</option>
             <option value="en|hmn">Hmong</option>
             <option value="en|hu">Hungarian</option>
             <option value="en|is">Icelandic</option>
+            <option value="en|ig">Igbo</option>
             <option value="en|id">Indonesian</option>
             <option value="en|ga">Irish</option>
             <option value="en|it">Italian</option>
@@ -500,6 +279,7 @@
             <option value="en|cy">Welsh</option>
             <option value="en|xh">Xhosa</option>
             <option value="en|yi">Yiddish</option>
+            <option value="en|yo">Yoruba</option>
             <option value="en|zu">Zulu</option>
         </select>
         <style type="text/css">
@@ -586,23 +366,489 @@
             }
         </script>
     </div>
+    {{--  --}}
+    {{-- <script>
+        AOS.init({
+            duration: 800,
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            var lang = $("html").attr("lang");
+
+            if ($("#homeFeed").length > 0) {
+                setInterval(function() {
+                    $.ajax({
+                        type: "POST",
+                        url: "../www.tmgm.com/inc/home-live-updates.php",
+                        data: {
+                            lang: lang
+                        },
+                        success: function(result) {
+                            var result = $.parseJSON(result);
+                            $("#Forex").html(result.forex);
+                            $("#Indices").html(result.indices);
+                            $("#Metals").html(result.metal);
+                            $("#Commodities").html(result.commo);
+                            $("#Crypto").html(result.crypto);
+                        },
+                    });
+                }, 500);
+            }
+
+            if ($("#btmTbl1").length > 0) {
+                setInterval(function() {
+                    $.ajax({
+                        type: "POST",
+                        url: "../www.Astrostockfx/inc/forex-table-btm-1.php",
+                        data: {
+                            lang: lang
+                        },
+                        success: function(result) {
+                            $("#btmTbl1").html(result);
+                        },
+                    });
+                }, 500);
+            }
+            if ($("#btmTbl2").length > 0) {
+                setInterval(function() {
+                    $.ajax({
+                        type: "POST",
+                        url: "../www.tmgm.com/inc/forex-table-btm-2.php",
+                        data: {
+                            lang: lang
+                        },
+                        success: function(result) {
+                            $("#btmTbl2").html(result);
+                        },
+                    });
+                }, 500);
+            }
+
+            if ($("#btmTbl3").length > 0) {
+                setInterval(function() {
+                    $.ajax({
+                        type: "POST",
+                        url: "../www.tmgm.com/inc/forex-table-btm-3.php",
+                        data: {
+                            lang: lang
+                        },
+                        success: function(result) {
+                            $("#btmTbl3").html(result);
+                        },
+                    });
+                }, 500);
+            }
+
+            if ($("#forexCard").length > 0) {
+                setInterval(function() {
+                    $.ajax({
+                        type: "POST",
+                        url: "../www.tmgm.com/inc/forex-card.php",
+                        data: {
+                            lang: lang
+                        },
+                        success: function(result) {
+                            $("#forexCard").html(result);
+                        },
+                    });
+                }, 500);
+            }
+
+            if ($("#metalSingle").length > 0) {
+                setInterval(function() {
+                    $.ajax({
+                        type: "POST",
+                        url: "../www.tmgm.com/inc/metal-card.php",
+                        data: {
+                            lang: lang
+                        },
+                        success: function(result) {
+                            $("#metalSingle").html(result);
+                        },
+                    });
+                }, 500);
+            }
+
+            if ($("#energyCard").length > 0) {
+                setInterval(function() {
+                    $.ajax({
+                        type: "POST",
+                        url: "../www.tmgm.com/inc/energy-card.php",
+                        data: {
+                            lang: lang
+                        },
+                        success: function(result) {
+                            $("#energyCard").html(result);
+                        },
+                    });
+                }, 500);
+            }
+
+            if ($("#cyptoCard").length > 0) {
+                setInterval(function() {
+                    $.ajax({
+                        type: "POST",
+                        url: "../www.tmgm.com/inc/crypto-card.php",
+                        data: {
+                            lang: lang
+                        },
+                        success: function(result) {
+                            $("#cyptoCard").html(result);
+                        },
+                    });
+                }, 500);
+            }
+            if ($("#cryptoTable").length > 0) {
+                setInterval(function() {
+                    $.ajax({
+                        type: "POST",
+                        url: "../www.tmgm.com/inc/crypto-table.php",
+                        data: {
+                            lang: lang
+                        },
+                        success: function(result) {
+                            $("#cryptoTable").html(result);
+                        },
+                    });
+                }, 500);
+            }
+
+            if ($("#commoCard").length > 0) {
+                setInterval(function() {
+                    $.ajax({
+                        type: "POST",
+                        url: "../www.tmgm.com/inc/commo-card.php",
+                        data: {
+                            lang: lang
+                        },
+                        success: function(result) {
+                            $("#commoCard").html(result);
+                        },
+                    });
+                }, 500);
+            }
+            if ($("#indicesCard").length > 0) {
+                setInterval(function() {
+                    $.ajax({
+                        type: "POST",
+                        url: "../www.tmgm.com/inc/indices-card.php",
+                        data: {
+                            lang: lang
+                        },
+                        success: function(result) {
+                            $("#indicesCard").html(result);
+                        },
+                    });
+                }, 500);
+            }
+
+            if ($("#indicesTable").length > 0) {
+                setInterval(function() {
+                    $.ajax({
+                        type: "POST",
+                        url: "../www.tmgm.com/inc/indices-table.php",
+                        data: {
+                            lang: lang
+                        },
+                        success: function(result) {
+                            $("#indicesTable").html(result);
+                        },
+                    });
+                }, 500);
+            }
+        });
+    </script> --}}
+    {{-- <script type="text/javascript">
+        window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "a384f35e-ad1c-42f5-afdb-3cc7d34dd1db";
+        (function() {
+            d = document;
+            s = d.createElement("script");
+            s.src = "../client.crisp.chat/l.html";
+            s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
+    </script> --}}
+
+    <div class="mgm " style="display: none">
+        <div class="txt" style="color: black">
+            Someone from <b></b> just traded with
+            <a href="javascript:void(0);" onclick="javascript:void(0);"></a>
+        </div>
+    </div>
+
+    <style>
+        .mgm {
+            border-radius: 7px;
+            position: fixed;
+            z-index: 150;
+            bottom: 420px;
+            right: 50px;
+            background: #fff;
+            padding: 10px 27px;
+            box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.3);
+        }
+
+        .mgm a {
+            font-weight: 700;
+            display: block;
+            color: #f2d516;
+        }
+
+        .mgm a,
+        .mgm a:active {
+            transition: all 0.2s ease;
+            color: #f2d516;
+        }
+    </style>
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html"></script>
+    <script type="text/javascript">
+        var listCountries = [
+            "Brazil",
+            "USA",
+            "Germany",
+            "France",
+            "Italy",
+            "United Kingdom",
+            "Australia",
+            "Iraq",
+            "Canada",
+            "Argentina",
+            "Saudi Arabia",
+            "Mexico",
+            "USA",
+            "South Africa",
+            "Venezuela",
+            "United Kingdom",
+            "Sweden",
+            "Brazil",
+            "Germany",
+            "Italy",
+            "South Africa",
+            "United Kingdom",
+            "South Africa",
+            "Greece",
+            "Cuba",
+            "South Africa",
+            "Portugal",
+            "Austria",
+            "Brazil",
+            "Panama",
+            "Dubai",
+            "USA",
+            "Netherlands",
+            "Switzerland",
+            "Belgium",
+            "Israel",
+            "Cyprus",
+        ];
+        var listPlans = [
+            "$500",
+            "$1500",
+            "$1000",
+            "$10,000",
+            "$2000",
+            "$3000",
+            "$4000",
+            "$600",
+            "$700",
+            "$2500",
+        ];
+        interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
+        var run = setInterval(request, interval);
+
+        function request() {
+            clearInterval(run);
+            interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
+            var country =
+                listCountries[Math.floor(Math.random() * listCountries.length)];
+            var plan = listPlans[Math.floor(Math.random() * listPlans.length)];
+            var msg =
+                "Someone from <b>" +
+                country +
+                '</b> just traded with <a href="javascript:void(0);" onclick="javascript:void(0);">' +
+                plan +
+                " .</a>";
+            $(".mgm .txt").html(msg);
+            $(".mgm").stop(true).fadeIn(100);
+            window.setTimeout(function() {
+                $(".mgm").stop(true).fadeOut(300);
+            }, 6000);
+            run = setInterval(request, interval);
+        }
+    </script>
+
+    <div class="mgm" style="display: none">
+        <div class="txt" style="color: #d4af37">
+            Someone from <b></b> just made a withdrawal of
+            <a href="javascript:void(0);" onclick="javascript:void(0);"></a>
+        </div>
+    </div>
+
+    <style>
+        .mgm {
+            border-radius: 7px;
+            position: fixed;
+            z-index: 150;
+            bottom: 420px;
+            right: 50px;
+            background: black;
+            padding: 10px 27px;
+            box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.3);
+            border: 2px solid #ffc400;
+        }
+
+        .mgm a {
+            font-weight: 700;
+            display: block;
+            color: #d4af37;
+            /*#f2d516;*/
+        }
+
+        .mgm a,
+        .mgm a:active {
+            transition: all 0.2s ease;
+            color: #d4af37;
+            /*#f2d516;*/
+        }
+    </style>
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min-2.html"></script>
+    <script type="text/javascript">
+        var listCountries = [
+            "South Africa",
+            "USA",
+            "Germany",
+            "France",
+            "Italy",
+            "United Kingdom",
+            "Australia",
+            "Iraq",
+            "Canada",
+            "Argentina",
+            "Saudi Arabia",
+            "Mexico",
+            "USA",
+            "South Africa",
+            "Venezuela",
+            "United Kingdom",
+            "Sweden",
+            "Brazil",
+            "Germany",
+            "Italy",
+            "South Africa",
+            "United Kingdom",
+            "South Africa",
+            "Greece",
+            "Cuba",
+            "South Africa",
+            "Portugal",
+            "Austria",
+            "Brazil",
+            "Panama",
+            "South Africa",
+            "South Africa",
+            "Netherlands",
+            "Switzerland",
+            "Belgium",
+            "Israel",
+            "Cyprus",
+        ];
+        var listPlans = [
+            "$7,835",
+            "$3,231",
+            "$2,500",
+            "$1,500",
+            "$10,000",
+            "$20,000",
+            "$3,000",
+            "$4,000",
+            "$7,650",
+            "$8,427",
+            "$6,962",
+            "$5,704",
+            "$27,340",
+            "$41,530",
+        ];
+        interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
+        var run = setInterval(request, 9000);
+
+        function request() {
+            clearInterval(run);
+            interval = Math.floor(Math.random() * (40000 - 8000 + 1) + 8000);
+            var country =
+                listCountries[Math.floor(Math.random() * listCountries.length)];
+            var plan = listPlans[Math.floor(Math.random() * listPlans.length)];
+            var msg =
+                "Someone from <b>" +
+                country +
+                '</b> just made a withdrawal of <a href="javascript:void(0);" onclick="javascript:void(0);">' +
+                plan +
+                " </a>";
+            $(".mgm .txt").html(msg);
+            $(".mgm").stop(true).fadeIn(100);
+            window.setTimeout(function() {
+                $(".mgm").stop(true).fadeOut(300);
+            }, 7000);
+            run = setInterval(request, 60000);
+        }
+    </script>
 
 
+    <script src="public/js/jquery-3.5.1.min.dc5e7f18c8bf79.js" type="text/javascript"></script>
+    <script src="public/js/webflow.069902445.js" type="text/javascript"></script>
+    <script src="public/js/recent.js" type="text/javascript"></script>
+    <script src="public/js/added/slider.js" type="text/javascript"></script>
+
+    <script src="public/css/added/sliderflex/slider.js" type="text/javascript"></script>
+    <script src="../code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="../cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="../maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
     <script>
-        $(document).on('change', '#langSel', function() {
-            var code = $(this).val();
-            window.location.href = "https://Exquisite-remittance.com/change-lang/" + code;
-        });
+        var current = 1,
+            slides = document.getElementsByClassName("w-pane");
+
+        setInterval(function() {
+
+            current++;
+
+            $("#t-link" + current).trigger("click");
+
+            if (current >= 3) {
+                current = 0;
+
+            }
+
+        }, 20000);
     </script>
-    <script src="//code.tidio.co/b71u6uqz9g6nse7f9lrhydfofy7k8vh2.js" async></script>
 
+    <script>
+        window.onload = function() {
+            var el = document.getElementsByClassName("price-tab")
+            for (i = 0; i < el.length; i++) {
+                el[0].classList.add('active')
+                if (el[i].classList.contains('active')) {
+                    el[i].style.display = 'block'
+                    el[i].classList.add('animate__animated', 'animate__fadeIn')
+                }
+            }
+        }
 
+        function selectPlan(plan) {
+            var el = document.getElementsByClassName("price-tab")
+            console.log(plan)
+            for (i = 0; i < el.length; i++) {
+                if (el[i].classList.contains(plan)) {
+                    el[i].style.display = 'block'
+                    el[i].classList.add('animate__animated', 'animate__fadeIn')
+                } else {
+                    el[i].style.display = 'none'
+                }
+            }
+        }
+    </script>
 
 
 </body>
-
-
-
-</html>
