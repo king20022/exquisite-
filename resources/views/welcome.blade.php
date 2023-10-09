@@ -4,7 +4,7 @@
             <div class="tabs-content w-tab-content">
 
                 <div data-w-tab="Tab 1" class="tab-pane w-pane _1 w-tab-pane w--tab-active"
-                    style="background-image:url(public/img/team1.jpg); background-position:center; background-size: cover; background-repeat:no-repeat;">
+                    style="background-image:url(public/img/gun2.jpg); background-position:center; background-size: cover; background-repeat:no-repeat;">
                     <div class="content-wrapper w-container">
                         <div class="hero-text">
                             <div data-w-id="4dfd0268-6e8b-57ae-dc2a-f8240544330c"
@@ -35,7 +35,7 @@
                 </div>
 
                 <div data-w-tab="Tab 2" class="tab-pane w-pane _3 w-tab-pane"
-                    style="background-image:url(public/img/team2.jpg); background-position:center; background-size: cover; background-repeat:no-repeat; ">
+                    style="background-image:url(public/img/gun1.jpg); background-position:center; background-size: cover; background-repeat:no-repeat; ">
                     <div class="content-wrapper w-container">
                         <div class="hero-text">
                             <div class="title-white"> ***** </div>
@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div data-w-tab="Tab 3" class="tab-pane w-pane _3 w-tab-pane"
-                    style="background-image:url(public/img/team3.jpg); background-position:center; background-size: cover; background-repeat:no-repeat; ">
+                    style="background-image:url(public/img/gun3.jpg); background-position:center; background-size: cover; background-repeat:no-repeat; ">
                     <div class="content-wrapper w-container">
                         <div class="hero-text">
                             <div class="title-white"> ***** </div>

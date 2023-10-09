@@ -654,31 +654,9 @@
                         </div>
 
 
+
+
                         <div class="grid grid-cols-1 gap-4">
-
-
-
-                            <label class="block">
-
-                                <span class="relative mt-1.5 flex">
-                                    <input
-                                        class="form-input peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:text-slate-400/70 hover:z-10 hover:border-slate-400 focus:z-10 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
-                                        placeholder="Address" type="text" name="address" required />
-                                    <span
-                                        class="pointer-events-none absolute flex h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary dark:text-navy-300 dark:peer-focus:text-accent">
-                                        <i class="fa fa-map"></i>
-                                    </span>
-                                </span>
-                            </label>
-
-
-
-
-
-                        </div>
-
-
-                        <div class="grid grid-cols-2 gap-4">
 
 
 
@@ -695,7 +673,7 @@
                                 </span>
                             </label>
 
-                            <label class="block">
+                            {{-- <label class="block">
 
                                 <select
                                     class="form-select mt-1.5 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:bg-navy-700 dark:hover:border-navy-400 dark:focus:border-accent"
@@ -704,7 +682,7 @@
                                     <option value="male"> Male </option>
                                     <option value="female"> Female </option>
                                 </select>
-                            </label>
+                            </label> --}}
 
 
 
