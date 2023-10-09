@@ -21,6 +21,8 @@
     <link href="/public/css/custom.css" rel="stylesheet" type="text/css" />
     <link rel="/stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="/stylesheet" href="public/css/added/slider.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
 
     <link rel="stylesheet" href="/public/css/added/sliderflex/slider.css" />
 
@@ -850,6 +852,13 @@
         }
     </script>
     <script src="//code.tidio.co/zzpqrv1axx266096dop3tkjpmrwb1l4e.js" async></script>
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Popper.js (Bootstrap 4 requires Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 
 
 </body>
