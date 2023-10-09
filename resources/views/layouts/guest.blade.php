@@ -8,10 +8,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exquisitecryptoventures | Platform for Virtual Currencies That Is Straightforward, Secure, and Reliable
+    <title>Earnestmarketventures | Platform for Virtual Currencies That Is Straightforward, Secure, and Reliable
     </title>
     <meta
-        content="Exquisite-crypto-ventures is a world-renowned manager of systematic investments. Our centralized research focuses on the creation of cutting-edge quantitative methods for identifying market opportunities and applies them in a structured way that produces effective exposures."
+        content="Earnestmarketventures is a world-renowned manager of systematic investments. Our centralized research focuses on the creation of cutting-edge quantitative methods for identifying market opportunities and applies them in a structured way that produces effective exposures."
         name="description" />
 
 
@@ -21,7 +21,7 @@
     <link href="/public/css/custom.css" rel="stylesheet" type="text/css" />
     <link rel="/stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="/stylesheet" href="public/css/added/slider.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    {{-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com?/bootstrap/4.5.2/css/bootstrap.min.css"> --}}
 
 
     <link rel="stylesheet" href="/public/css/added/sliderflex/slider.css" />
@@ -852,7 +852,7 @@
         }
     </script>
     <script src="//code.tidio.co/zzpqrv1axx266096dop3tkjpmrwb1l4e.js" async></script>
-   
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <!-- Popper.js (Bootstrap 4 requires Popper.js) -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
