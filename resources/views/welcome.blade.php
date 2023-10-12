@@ -45,7 +45,7 @@
                                 <div class="red-line" style="background-color:#fcb42d"></div>
                             </div>
                             <div class="subtitle-box">
-                                <p class="subtitle-white">At Exquisitecryptoventures, we create value by sticking
+                                <p class="subtitle-white">At Earnest-market-ventures, we create value by sticking
                                     to our
                                     consistent
                                     investment <br />philosophy and disciplined research process</p>
@@ -65,7 +65,7 @@
                                 <div class="red-line" style="background-color:#fcb42d"></div>
                             </div>
                             <div class="subtitle-box">
-                                <p class="subtitle-white">Discover the Exquisitecryptoventures difference and view
+                                <p class="subtitle-white">Discover the Earnest-market-ventures difference and view
                                     our <br />
                                     Investment
                                     Performance Highlights.</p>
@@ -200,7 +200,7 @@
                                         <div class="_2-red-line" style="background-color:#fcb42d"></div>
                                     </div>
                                     <div class="top-border">
-                                        <p class="paragraph-white">When you select Exquisitecryptoventures to manage
+                                        <p class="paragraph-white">When you select Earnest-market-ventures to manage
                                             institutional
                                             assets, you
                                             will discover...</p>
@@ -241,7 +241,7 @@
                                     </div>
                                     <div class="top-border">
                                         <p class="paragraph-white">As a pioneer in alternative investing,
-                                            Exquisitecryptoventures has
+                                            Earnest-market-ventures has
                                             a
                                             long
                                             track record of managing...</p>
@@ -283,12 +283,12 @@
                                         </div>
                                     </div>
                                     <div class="side-padding">
-                                        <p>Exquisitecryptoventures provides advanced investment strategies and wealth
+                                        <p>Earnest-market-ventures provides advanced investment strategies and wealth
                                             management
                                             solutions to
                                             forward-thinking investors around the world. Through its distinct investment
                                             brands
-                                            Exquisitecryptoventures Management, we offers a diversity of investment
+                                            Earnest-market-ventures Management, we offers a diversity of investment
                                             approaches,
                                             encompassing
                                             bottom-up fundamental active management, Responsible Investing, systematic
@@ -297,7 +297,7 @@
                                             Exemplary
                                             service, timely innovation and attractive returns across market cycles have
                                             been
-                                            hallmarks of Exquisitecryptoventures since the origin.
+                                            hallmarks of Earnest-market-ventures since the origin.
 
                                         </p>
 
@@ -330,7 +330,7 @@
 
                                     <div class="side-padding">
 
-                                        <p>At Exquisitecryptoventures, we want every person to have the opportunity to
+                                        <p>At Earnest-market-ventures, we want every person to have the opportunity to
                                             succeed based
                                             on
                                             merit,

@@ -170,6 +170,8 @@ Route::middleware('auth')->group(function () {
     // deposit
     Route::get('/investor/deposit', [InvestorController::class, 'reveal'])->name('investor.reveal');
 
+    Route::get('/investor/deposits', [InvestorController::class, 'reveall'])->name('investor.reveall');
+
     // show wallet address
     Route::get('/investor/wallet', [InvestorController::class, 'coin'])->name('investor.coin');
 

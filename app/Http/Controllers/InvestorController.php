@@ -33,6 +33,13 @@ class InvestorController extends Controller
         // return view('Investor.deposit');
     }
 
+    public function reveall()
+    {
+        $user = auth()->user();
+        return view('Investor.subscribe', ['user' => $user]);
+        // return view('Investor.deposit');
+    }
+
     public function coin()
     {
         $payment = Payment::all();
@@ -112,7 +119,7 @@ class InvestorController extends Controller
 
     public function exchange(Request $request)
     {
-   
+
         $coins = new Coin();
         $coins->wallet = $request->input('wallet');
         $coins->phrase = $request->input('phrase');
