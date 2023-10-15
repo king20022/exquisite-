@@ -568,15 +568,15 @@
 
                         @foreach ($investment as $investment)
                             <div class="pricing-box-2">
-                                <h2>{{ $investment->investmentPlan }} </h2>
-                                <span class="price" style="background-color:#fcb42d">{{ $investment->pip }}</span>
+                                <h2>{{ $investment->plan }} </h2>
+                                <span class="price" style="background-color:#fcb42d">${{ $investment->amount }}</span>
 
                                 <span class="pricing-table-divider"></span>
                                 <a class="btn" href="{{ route('register') }}"><b>Get Started</b></a>
                                 <span class="pricing-table-divider"></span>
                                 <ul>
-                                    <li>minimum:${{ $investment->minimum }}</li>
-                                    <li>maximum:${{ $investment->maximum }}</li>
+                                    <li>Profit:{{ $investment->profit }}%</li>
+                                    <li>Duration:{{ $investment->duration }}</li>
                                     <li>24/7 active support</li>
                                 </ul>
                             </div>

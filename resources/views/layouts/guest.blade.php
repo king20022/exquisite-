@@ -796,16 +796,24 @@
         }
     </script>
 
+    <!-- jQuery 1.9.1 -->
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 
-    <script src="public/js/jquery-3.5.1.min.dc5e7f18c8bf79.js" type="text/javascript"></script>
-    <script src="public/js/webflow.069902445.js" type="text/javascript"></script>
-    <script src="public/js/recent.js" type="text/javascript"></script>
-    <script src="public/js/added/slider.js" type="text/javascript"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <script src="public/css/added/sliderflex/slider.js" type="text/javascript"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    {{-- <script src="/public/js/jquery-/3.5.1.min.dc5e7f18c8bf79.js" type="text/javascript"></script> --}}
+    <script src="/public/js/webflow.069902445.js" type="text/javascript"></script>
+    <script src="/public/js/recent.js" type="text/javascript"></script>
+    <script src="/public/js/added/slider.js" type="text/javascript"></script>
+
+    <script src="/public/css/added/sliderflex/slider.js" type="text/javascript"></script>
     <script src="../code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="../cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-    <script src="../maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    {{-- <script src="../maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> --}}
 
 
     <script>
@@ -853,11 +861,15 @@
     </script>
     <script src="//code.tidio.co/zzpqrv1axx266096dop3tkjpmrwb1l4e.js" async></script>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <!-- Popper.js (Bootstrap 4 requires Popper.js) -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    {{-- <!-- jQuery 1.9.1 -->
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Popper.js (Bootstrap 4 requires Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script> --}}
+
 
 
 
