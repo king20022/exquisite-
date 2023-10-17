@@ -122,9 +122,9 @@
                     style=" display:flex; width:100%; margin-bottom:10px; border-bottom: 0px !important">
                     <div class="col-sm-9">
                         <h4 class="title" style="color:white"><a href="index.html" class=""><img
-                                    src="images/Exquisitecryptoventures.png" width="200px" alt="" /></a>
+                                    src="images/Earnestcryptoventures.png" width="200px" alt="" /></a>
                         </h4>
-                        <p style="color:white">Exquisitecryptoventures is more than just finance, it’s hope for an
+                        <p style="color:white">Earnest Market Ventures is more than just finance, it’s hope for an
                             average entrepreneur to stand, evolve.
                         </p>
                     </div>
@@ -804,7 +804,7 @@
 
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
+
     {{-- <script src="/public/js/jquery-/3.5.1.min.dc5e7f18c8bf79.js" type="text/javascript"></script> --}}
     <script src="/public/js/webflow.069902445.js" type="text/javascript"></script>
     <script src="/public/js/recent.js" type="text/javascript"></script>
