@@ -7,6 +7,8 @@ use App\Models\Payment;
 use App\Models\User;
 use App\Models\Withdrawal;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+
 
 class AdminController extends Controller
 {
@@ -66,17 +68,43 @@ class AdminController extends Controller
 
     public function delete($user_id)
     {
-        $user = User::findOrFail($user_id); // Retrieve the user record from the database
+        // $user = User::findOrFail($user_id); // Retrieve the user record from the database
+
+        // if (!$user) {
+        //     abort(404);
+        // }
+        // $user->delete(); // Delete the user record
+
+        // // return redirect()->back()->with('success', 'Investor details deleted successfully.');
+
+        // // return redirect()->route('Admin.show')->with('success', 'Investor has been deleted.'); // Redirect back to the user list page with a success message
+        // return redirect()->back()->with('success', 'Investor details updated successfully.');
+
+        // Retrieve the authenticated user
+        $authenticatedUser = Auth::user();
+
+        // Check if the authenticated user is an admin
+        if (!$authenticatedUser || $authenticatedUser->role !== 'admin') {
+            abort(403, 'Unauthorized action.'); // HTTP 403 Forbidden
+        }
+
+        // Retrieve the user record from the database
+        $user = User::findOrFail($user_id);
 
         if (!$user) {
-            abort(404);
+            abort(404, 'User not found.'); // HTTP 404 Not Found
         }
-        $user->delete(); // Delete the user record
 
-        // return redirect()->back()->with('success', 'Investor details deleted successfully.');
+        // Prevent admin from deleting their own account
+        if ($user->role === 'admin') {
+            abort(403, 'Admins cannot be deleted.'); // HTTP 403 Forbidden
+        }
 
-        // return redirect()->route('Admin.show')->with('success', 'Investor has been deleted.'); // Redirect back to the user list page with a success message
-        return redirect()->back()->with('success', 'Investor details updated successfully.');
+        // Delete the user account
+        $user->delete();
+
+        // Redirect or return a response indicating successful deletion
+        return redirect()->back()->with('success', 'User account deleted successfully.');
     }
 
 

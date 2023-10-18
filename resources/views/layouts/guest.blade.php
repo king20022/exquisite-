@@ -52,6 +52,43 @@
         .price-tab {
             display: none
         }
+
+
+
+
+        .happy{
+            position: relative;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 999;
+        }
+
+        .whatsapp-button img {
+            width: 60px;
+            /* Set the width of your WhatsApp icon */
+            height: auto;
+            border-radius: 50%;
+            /* Optional: Add border-radius for a circular button */
+        }
+
+        /* Media query for responsiveness */
+        @media (max-width: 768px) {
+            .whatsapp-button {
+                bottom: 10px;
+                left: 10px;
+            }
+
+            .whatsapp-button img {
+                width: 50px;
+            }
+        }
     </style>
 </head>
 
@@ -67,7 +104,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ route('welcome') }}"><img src="images/vitalitycryptos.png"
+                <a class="navbar-brand" href="{{ route('welcome') }}"><img src="images/logo.jpg"
                         width="200px" alt="" /></a>
             </div>
 
@@ -870,7 +907,16 @@
     <!-- Popper.js (Bootstrap 4 requires Popper.js) -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script> --}}
 
+    <div class="happy">
+        <div class="whatsapp-button">
+            <a href="https://wa.me/+13866019195 " target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp Icon">
+            </a>
+        </div>
 
+    </div>
+
+    <script src="script.js"></script>
 
 
 </body>
